@@ -1,0 +1,291 @@
+/* Colors */
+:root {
+    --secondary10: #FFF2E8;
+    --primary30: #ADC6FF;
+    --primary40: #85A5FF;
+    --primary50: #597EF7;
+    --primary60: #2F54EB;
+    --primary70: #1D39C4;
+    --primary80: #10239E;
+    --neutral10: #FFFFFF;
+    --neutral20: #F9FAFB;
+    --neutral30: #EDF0F3;
+    --neutral40: #DDE1E6;
+    --neutral50: #D0D4D9;
+    --neutral60: #AAAFB6;
+    --neutral70: #838D95;
+    --neutral80: #636B75;
+    --neutral90: #1E2024;
+    --neutral100: #0E0F11;
+    --success60: #52C41A;
+    --warning60: #FAAD14;
+    --error60: #F5222D;
+    --info60: #1890FF;
+}
+
+body {
+    background-color: var(--secondary10);
+}
+
+span {
+    color: var(--primary60);
+}
+
+.bg-primary-custom {
+    background-color: var(--secondary10);
+}
+
+.bg-secondary-custom {
+    background-color: var(--neutral10);
+}
+
+/* Typography */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 2.75rem;
+    font-weight: 900;
+    line-height: 3.25rem;
+    color: var(--neutral100);
+    letter-spacing: -0.022em;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    color: var(--neutral100);
+    letter-spacing: -0.021em;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    color: var(--neutral100);
+    letter-spacing: -0.019em;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: var(--neutral100);
+    letter-spacing: -0.017em;
+}
+
+h5 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    color: var(--neutral100);
+    letter-spacing: -0.014em;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--neutral100);
+    letter-spacing: -0.011em;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--neutral90);
+    letter-spacing: -0.011em;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: var(--neutral80);
+    letter-spacing: -0.011em;
+}
+
+.tagline {
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    letter-spacing: -0.006em;
+    color: var(--primary60);
+
+}
+
+/* Components */
+
+/* 1. Navbar */
+.active-link {
+    color: var(--primary50);
+}
+
+.nav-link-color {
+    color: var(--neutral80);
+}
+
+.nav-link-color:hover {
+    color: var(--primary50);
+}
+
+/* 2. Primary Button */
+.btn-primary {
+    background-color: var(--primary60);
+    color: var(--neutral10);
+    padding: 0.5rem .75rem;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary70);
+}
+
+.btn-primary:active {
+    background-color: var(--primary80);
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+/* 3. Secondary Button */
+.btn-outline-secondary {
+    background-color: var(--neutral10);
+    color: var(--neutral100);
+    padding: 0.5rem .75rem;
+    border: 1px solid var(--neutral50);
+    border-radius: 6px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--neutral20);
+    color: var(--neutral100);
+    border: 1px solid var(--neutral50);
+}
+
+/* 4. Card */
+.card-custom-сlickable {
+    background-color: var(--neutral10);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.card-custom-сlickable:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.card-custom-сlickable:active {
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    transform: scale(0.98);
+}
+
+.card-custom {
+    background-color: var(--neutral10);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.icon-custom {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+/* 5. Link in card */
+.card-link {
+    text-decoration: none;
+    color: var(--primary60);
+}
+
+/* 6. Numbers in Achievements list */
+.numbers {
+    color: var(--neutral100);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+/* 7. Testimonials */
+.testimonial-text {
+    color: var(--neutral90);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.client-name {
+    color: var(--neutral90);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+.icon-stars {
+    width: 10.75rem;
+    height: 1.5rem;
+}
+
+/* 8. Clients Logo Group */
+.client-logo {
+    max-width: 9rem;
+    max-height: 3.5rem;
+    filter: saturate(0%);
+    opacity: 0.35;
+}
+
+.client-logo:hover {
+    filter: saturate(100%);
+    opacity: 1;
+}
+
+/* 9. Advantages */
+/* Adding some space between card rows */
+.top-buffer { 
+    margin-top: 1.5rem; 
+}
+
+
+/* 10. Our Working Environment */
+.arrow-link {
+    text-decoration: none;
+    color: var(--primary60);
+}
+
+.active-link:hover {
+    color: var(--primary70);
+}
+
+.active-link:active {
+    color: var(--primary80);
+}
+
+
+/* 11. Footer */
+
+.footer-links {
+    text-decoration: none;
+    color: var(--neutral90);
+}
+
+.footer-links:hover {
+    color: var(--primary50);
+}
+
+.selected-language {
+    color: var(--neutral70);
+}
+
+
+/* 12. Icons */
+
+.icon-blue {
+    color: var(--primary60);
+}
