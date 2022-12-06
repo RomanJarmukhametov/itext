@@ -29,6 +29,8 @@
     <link rel="alternate" hreflang="kk-kz" href="https://www.itext.agency/kk/basty.html" />
     <link rel="alternate" hreflang="en-us" href="https://www.itext.agency/en/home.html" />
 
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-857826585"></script>
     <script>
@@ -110,392 +112,388 @@
         </div>
     </nav>
 
-    <!-- Hero -->
-
-    <section class="container">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./assets/hero_home.svg" class="d-block mx-lg-auto img-fluid" alt="Hero Image for Home Page"
-                    width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <p class="tagline">БЮРО ПЕРЕВОДОВ ITEXT</p>
-                <h1 class="display-5 fw-bold lh-1 mb-3">Профессиональные переводы <span>для Вас и Вашего бизнеса</span>
-                </h1>
-                <p class="lead">От маркетинговых материалов и официальных документов до финансовых материалов,
-                    технических инструкций и не только - наши услуги профессионального перевода отвечают любым
-                    потребностям, проектам, обстоятельствам и бюджету.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="./ru/zakazat-perevod.html" class="btn btn-primary btn-lg me-2">Заказать перевод</a>
-                    <a href="./ru/o-nas.html" class="btn btn-outline-secondary btn-lg me-2">О нас</a>
+    <div id="app">
+        <!-- Hero -->
+        <section class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./assets/hero_home.svg" class="d-block mx-lg-auto img-fluid"
+                        alt="Hero Image for Home Page" width="700" height="500" loading="lazy">
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features -->
-
-    <section class="container px-4 py-lg-5 py-md-3 py-sm-1">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 ">
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom-сlickable border-0">
-                    <img src="./assets/icon_translations.svg" class="py-1 icon-custom" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Профессиональные переводы</h5>
-                        <p class="card-text">Оптимальное решение, сочетающее в себе современные информационные
-                            технологии и квалифицированных переводчиков для повышения качества переводов.</p>
-                        <a href="./ru/dlya-fizlits.html"
-                            class="d-inline-flex align-items-center card-link stretched-link">
-                            Узнать больше
-                            <i class="bi bi-arrow-right m-xl-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom-сlickable border-0">
-                    <img src="./assets/icon_enterprise_solutions.svg" class="py-1 icon-custom" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Решения для компаний</h5>
-                        <p class="card-text">Бесперебойное выполнение переводов в глобальном масштабе с помощью рабочих
-                            процессов и технологий, позволяющих ускорить выход на рынок и повысить общую эффективность.
-                        </p>
-                        <a href="./ru/dlya-companiy.html"
-                            class="d-inline-flex align-items-center card-link stretched-link">
-                            Узнать больше
-                            <i class="bi bi-arrow-right m-xl-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom-сlickable border-0">
-                    <img src="./assets/icon_localization.svg" class="py-1 icon-custom" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Инструменты для локализации</h5>
-                        <p class="card-text">Современные и в то же время простые в использовании инструменты перевода
-                            для непрерывной локализации, извлечения контента из 71 формата файлов.</p>
-                        <a href="./ru/dlya-companiy.html"
-                            class="d-inline-flex align-items-center card-link stretched-link">
-                            Узнать больше
-                            <i class="bi bi-arrow-right m-xl-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Achievements -->
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="card-custom">
-            <div class="row pt-3 row-cols-1 row-cols-lg-12 ">
-                <div class="col text-center">
-                    <h2>Коротко о нас</h2>
-                    <p>С момента нашего основания в 2012 году в Казахстане мы перевели</p>
-                </div>
-            </div>
-            <div class="row pb-3 row-cols-1 row-cols-lg-4 ">
-                <div class="col text-center">
-                    <p class="numbers">13000+</p>
-                    <p>личных документов</p>
-                </div>
-                <div class="col text-center">
-                    <p class="numbers">1410+</p>
-                    <p>инструкций</p>
-                </div>
-                <div class="col text-center">
-                    <p class="numbers">300+</p>
-                    <p>веб-сайтов</p>
-                </div>
-                <div class="col text-center">
-                    <p class="numbers">100+</p>
-                    <p>мобильных приложений</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row pt-5 row-cols-1 row-cols-lg-12 ">
-            <div class="col text-center">
-                <h2>Нам благодарны</h2>
-                <p class="testimonial-text">Мы прилагаем все усилия, чтобы наши клиенты всегда оставались довольны
-                    нашими услугами. Благодаря
-                    этому мы заслужили репутацию надежного бюро переводов. Узнайте, что некоторые из наших предыдущих
-                    клиентов говорят о нашей работе и услугах.</p>
-            </div>
-        </div>
-        <div class="row g-4 pb-5 row-cols-1 row-cols-lg-2 ">
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="./assets/stars.svg" class="py-1 icon-stars" alt="">
-                    <div class="card-body">
-                        <p class="testimonial-text">Выражаем благодарность бюро переводов iText за ускоренный и
-                            качественный перевод большого объема
-                            технической документации с английского языка на русский язык</p>
-                        <p class="client-name">Чжан Цзяньцзюнь</p>
-                        <p class="testimonial-text">TOO «NFC Kazakhstan»</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="./assets/stars.svg" class="py-1 icon-stars" alt="">
-                    <div class="card-body">
-                        <p class="testimonial-text">Хочу выразить благодарность бюро переводов iText за качественный
-                            перевод моей монографии
-                            «Аналитическое исследование распространения термоупругих волн в анизотропных средах» с
-                            русского
-                            языка на английский язык.</p>
-                        <p class="client-name">Н.А. Испулов</p>
-                        <p class="testimonial-text">Декан факультета ФМиИТ, ПГУ им. С.Торайгырова</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Clients -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="card-custom">
-            <div class="row pt-3 row-cols-1 row-cols-lg-12 ">
-                <div class="col text-center">
-                    <h2>Наши клиенты</h2>
-                    <p>Настоящее партнерство - это движение в обе стороны: идеи и информация поступают открыто и
-                        регулярно
-                        на основе взаимного доверия и уважения к опыту друг друга, и наши клиенты принимают эту
-                        философию.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row gy-5 gy-md-6">
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_sulpak.png" loading="lazy" alt="Sulpak Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_nfc.png" loading="lazy" alt="NFC Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_turkpa.png" loading="lazy" alt="TURKPA Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_erg.svg" loading="lazy" alt="ERG Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_eurasian.jpeg" loading="lazy" alt="Eurasian Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_kazmunaygas.png" loading="lazy" alt="KazMunayGaz Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_kios.png" loading="lazy" alt="KIOS Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="./assets/logo_evooil.png" loading="lazy" alt="Evooil Logo">
-                </div>
-            </div>
-
-    </section>
-
-    <!-- Advantages -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row py-5">
-            <div class="col-lg-4 col-md-12">
-                <h2>Наши преимущества</h2>
-                <p>Благодаря сочетанию передового технологического опыта и профессиональных редакторов мы обеспечиваем
-                    быстрый, эффективный и качественный перевод.</p>
-            </div>
-
-            <div class="col-lg-8 col-md-12 mb-2">
-                <div class="card-custom">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-12">
-                            <img src="./assets/icon_experience.svg" class="py-1 icon-custom" alt="">
-                        </div>
-                        <div class="col-lg-10 col-md-12">
-                            <h5>Опыт и уверенность</h5>
-                            <p>С 2012 года мы перевели более 10,2 миллиона слов на 35 языков для 1 300 клиентов из
-                                различных отраслей.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-custom top-buffer">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-12">
-                            <img src="./assets/icon_quality.svg" class="py-1 icon-custom" alt="">
-                        </div>
-                        <div class="col-lg-10 col-md-12">
-                            <h5>Эффективность процесса</h5>
-                            <p>Мы стремимся повысить эффективность переводческих услуг, совершенствуя производственные
-                                процессы с помощью передовых технологий и талантливых сотрудников.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-custom top-buffer">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-12">
-                            <img src="./assets/icon_one_step.svg" class="py-1 icon-custom" alt="">
-                        </div>
-                        <div class="col-lg-10 col-md-12">
-                            <h5>На шаг впереди</h5>
-                            <p>Мы оказываем широкий спектр лингвистических услуг, которые покрывают все ваши будущие
-                                запросы: перевод объявлений в Google Ads, локализация программного обеспечения и
-                                мобильных приложений, создание субтитров, а также API для интеграции автоматического
-                                перевода везде, где это необходимо.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our Working Environment -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row flex-lg-row align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./assets/our_family.svg" class="d-block mx-lg-auto img-fluid" alt="Our Family" width="700"
-                    height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h2 class="fw-bold lh-1 mb-3">Наша рабочая <span>атмосфера</span>
-                </h2>
-                <p>Мы с гордостью отмечаем, что справедливо оплачиваем труд наших переводчиков и формируем рабочую
-                    среду, в которой царит дух сотрудничества, удовольствия и открытости для всех: культуру, которая
-                    побуждает сотрудников делать великие дела для вас.</p>
-                <a href="./ru/o-nas.html" class="d-inline-flex align-items-center arrow-link">
-                    О нас
-                    <i class="bi bi-arrow-right m-xl-1"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Any Questions -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row flex-lg-row align-items-center g-5 py-5">
-            <div class="col-lg-6">
-                <h2 class="fw-bold lh-1 mb-3">Остались еще вопросы? <span>Свяжитесь с нами!</span>
-                </h2>
-                <p>Наша команда готова ответить на все ваши вопросы и найти оптимальное решение для реализации ваших
-                    потребностей в переводе.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="./ru/zakazat-perevod.html" class="btn btn-outline-secondary btn-sm me-2">Связаться с
-                        нами</a>
-                </div>
-            </div>
-            <div class="col-lg-6 text-center">
-                <img src="./assets/avatar.png" loading="lazy" alt="Project Manager Photo">
-                <p class="fw-bold">Привет! Я Лилия. <br> Чем могу помочь?</p>
-                <p>Лилия - менеджер по работе с клиентами.</p>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Quote -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="card-custom">
-            <div class="row flex-lg-row align-items-center g-3 py-3">
-                <div class="col-lg-9">
-                    <h2 class="fw-bold lh-1 mb-3 w-75">Узнайте стоимость вашего перевода <span>прямо сейчас</span>
-                    </h2>
-                    <p class="w-75">Заполните форму заказа на перевод. Мы предоставим вам наилучшую стоимость.</p>
-                </div>
-                <div class="col-lg-3 d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="./ru/zakazat-perevod.html" class="btn btn-primary btn-sm me-2">Заказать перевод</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-muted border-top">
-        <section>
-            <div class="container text-center text-md-start mt-5 mb-4">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <a class="navbar-brand" href="./index.html"> <img src="./assets/itext_logo.svg" alt="logo"> </a>
-                        <div class="top-buffer">
-                            <a href="./kk/basty.html" class="footer-links">Қазақша</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="./index.html" class="footer-links selected-language">Русский</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="./en/home.html" class="footer-links">English</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Меню
-                        </h6>
-                        <p>
-                            <a href="./index.html" class="footer-links">Главная</a>
-                        </p>
-                        <p>
-                            <a href="./ru/o-nas.html" class="footer-links">О нас</a>
-                        </p>
-                        <p>
-                            <a href="./ru/dlya-companiy.html" class="footer-links">Компаниям</a>
-                        </p>
-                        <p>
-                            <a href="./ru/dlya-fizlits.html" class="footer-links">Физлицам</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Дополнительная информация
-                        </h6>
-                        <p>
-                            <a href="./ru/usloviya-obsluzhivaniya.html" class="footer-links">Условия оказания услуг</a>
-                        </p>
-                        <p>
-                            <a href="./ru/konfidentsialnost.html" class="footer-links">Конфиденциальность</a>
-                        </p>
-
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Контактная информация</h6>
-                        <p><a href="mailto:itext@itext.kz?subject=Заказ перевода с сайта&body=Добрый день! Необходим перевод вложенных документов"
-                                class="footer-links">itext@itext.kz</a></p>
-                        <p>
-                            <a href="tel:+77182764060" class="footer-links">+7 7182 76 40 60</a>
-                        </p>
-                        <p>
-                            <a href="http://wa.me/77018712531" class="footer-links">Написать в WhatsApp</a>
-                        </p>
-                        <p>
-                            <a href="https://www.google.com/maps/place/%D0%91%D1%8E%D1%80%D0%BE+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2+iText/@52.2841928,76.9440005,18.41z/data=!4m5!3m4!1s0x42f835292c059a2f:0x28d93a069f6a722d!8m2!3d52.2842215!4d76.9434585?hl=ru-KZ"
-                                class="footer-links" target="_blank">Пл. Победы 25, офис 201, Павлодар, Казахстан</a>
-                        </p>
+                <div class="col-lg-6">
+                    <p class="tagline">БЮРО ПЕРЕВОДОВ ITEXT</p>
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Профессиональные переводы <span>для Вас и Вашего
+                            бизнеса</span>
+                    </h1>
+                    <p class="lead">От маркетинговых материалов и официальных документов до финансовых материалов,
+                        технических инструкций и не только - наши услуги профессионального перевода отвечают любым
+                        потребностям, проектам, обстоятельствам и бюджету.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="./ru/zakazat-perevod.html" class="btn btn-primary btn-lg me-2">Заказать перевод</a>
+                        <a href="./ru/o-nas.html" class="btn btn-outline-secondary btn-lg me-2">О нас</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-            <p>©2022 Все права защищены: Бюро переводов iText</p>
-        </div>
-    </footer>
+
+        <!-- Features -->
+
+        <section class="container px-4 py-lg-5 py-md-3 py-sm-1">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 ">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom-сlickable border-0">
+                        <img src="./assets/icon_translations.svg" class="py-1 icon-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Профессиональные переводы</h5>
+                            <p class="card-text">Оптимальное решение, сочетающее в себе современные информационные
+                                технологии и квалифицированных переводчиков для повышения качества переводов.</p>
+                            <a href="./ru/dlya-fizlits.html"
+                                class="d-inline-flex align-items-center card-link stretched-link">
+                                Узнать больше
+                                <i class="bi bi-arrow-right m-xl-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom-сlickable border-0">
+                        <img src="./assets/icon_enterprise_solutions.svg" class="py-1 icon-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Решения для компаний</h5>
+                            <p class="card-text">Бесперебойное выполнение переводов в глобальном масштабе с помощью
+                                рабочих
+                                процессов и технологий, позволяющих ускорить выход на рынок и повысить общую
+                                эффективность.
+                            </p>
+                            <a href="./ru/dlya-companiy.html"
+                                class="d-inline-flex align-items-center card-link stretched-link">
+                                Узнать больше
+                                <i class="bi bi-arrow-right m-xl-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom-сlickable border-0">
+                        <img src="./assets/icon_localization.svg" class="py-1 icon-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Инструменты для локализации</h5>
+                            <p class="card-text">Современные и в то же время простые в использовании инструменты
+                                перевода
+                                для непрерывной локализации, извлечения контента из 71 формата файлов.</p>
+                            <a href="./ru/dlya-companiy.html"
+                                class="d-inline-flex align-items-center card-link stretched-link">
+                                Узнать больше
+                                <i class="bi bi-arrow-right m-xl-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="card-custom">
+                <div class="row pt-3 row-cols-1 row-cols-lg-12 ">
+                    <div class="col text-center">
+                        <h2>Коротко о нас</h2>
+                        <p>С момента нашего основания в 2012 году в Казахстане мы перевели</p>
+                    </div>
+                </div>
+                <div class="row pb-3 row-cols-1 row-cols-lg-4 ">
+                    <div class="col text-center">
+                        <p class="numbers">13000+</p>
+                        <p>личных документов</p>
+                    </div>
+                    <div class="col text-center">
+                        <p class="numbers">1410+</p>
+                        <p>инструкций</p>
+                    </div>
+                    <div class="col text-center">
+                        <p class="numbers">300+</p>
+                        <p>веб-сайтов</p>
+                    </div>
+                    <div class="col text-center">
+                        <p class="numbers">100+</p>
+                        <p>мобильных приложений</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row pt-5 row-cols-1 row-cols-lg-12 ">
+                <div class="col text-center">
+                    <h2>Нам благодарны</h2>
+                    <p class="testimonial-text">Мы прилагаем все усилия, чтобы наши клиенты всегда оставались довольны
+                        нашими услугами. Благодаря
+                        этому мы заслужили репутацию надежного бюро переводов. Узнайте, что некоторые из наших
+                        предыдущих
+                        клиентов говорят о нашей работе и услугах.</p>
+                </div>
+            </div>
+            <div class="row g-4 pb-5 row-cols-1 row-cols-lg-2 ">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="./assets/stars.svg" class="py-1 icon-stars" alt="">
+                        <div class="card-body">
+                            <p class="testimonial-text">Выражаем благодарность бюро переводов iText за ускоренный и
+                                качественный перевод большого объема
+                                технической документации с английского языка на русский язык</p>
+                            <p class="client-name">Чжан Цзяньцзюнь</p>
+                            <p class="testimonial-text">TOO «NFC Kazakhstan»</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="./assets/stars.svg" class="py-1 icon-stars" alt="">
+                        <div class="card-body">
+                            <p class="testimonial-text">Хочу выразить благодарность бюро переводов iText за качественный
+                                перевод моей монографии
+                                «Аналитическое исследование распространения термоупругих волн в анизотропных средах» с
+                                русского
+                                языка на английский язык.</p>
+                            <p class="client-name">Н.А. Испулов</p>
+                            <p class="testimonial-text">Декан факультета ФМиИТ, ПГУ им. С.Торайгырова</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="card-custom">
+                <div class="row pt-3 row-cols-1 row-cols-lg-12 ">
+                    <div class="col text-center">
+                        <h2>Наши клиенты</h2>
+                        <p>Настоящее партнерство - это движение в обе стороны: идеи и информация поступают открыто и
+                            регулярно
+                            на основе взаимного доверия и уважения к опыту друг друга, и наши клиенты принимают эту
+                            философию.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row logo-list">
+                    <div class="col-lg-2 col-md-4 col-6" v-for="client in clients">
+                        <img :src="client.logo" class="img-fluid" :alt="client.name">
+                    </div>
+                </div>
+        </section>
+
+        <!-- Advantages -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row py-5">
+                <div class="col-lg-4 col-md-12">
+                    <h2>Наши преимущества</h2>
+                    <p>Благодаря сочетанию передового технологического опыта и профессиональных редакторов мы
+                        обеспечиваем
+                        быстрый, эффективный и качественный перевод.</p>
+                </div>
+
+                <div class="col-lg-8 col-md-12 mb-2">
+                    <div class="card-custom">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-12">
+                                <img src="./assets/icon_experience.svg" class="py-1 icon-custom" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-12">
+                                <h5>Опыт и уверенность</h5>
+                                <p>С 2012 года мы перевели более 10,2 миллиона слов на 35 языков для 1 300 клиентов из
+                                    различных отраслей.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-custom top-buffer">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-12">
+                                <img src="./assets/icon_quality.svg" class="py-1 icon-custom" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-12">
+                                <h5>Эффективность процесса</h5>
+                                <p>Мы стремимся повысить эффективность переводческих услуг, совершенствуя
+                                    производственные
+                                    процессы с помощью передовых технологий и талантливых сотрудников.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-custom top-buffer">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-12">
+                                <img src="./assets/icon_one_step.svg" class="py-1 icon-custom" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-12">
+                                <h5>На шаг впереди</h5>
+                                <p>Мы оказываем широкий спектр лингвистических услуг, которые покрывают все ваши будущие
+                                    запросы: перевод объявлений в Google Ads, локализация программного обеспечения и
+                                    мобильных приложений, создание субтитров, а также API для интеграции автоматического
+                                    перевода везде, где это необходимо.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Working Environment -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row flex-lg-row align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./assets/our_family.svg" class="d-block mx-lg-auto img-fluid" alt="Our Family" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold lh-1 mb-3">Наша рабочая <span>атмосфера</span>
+                    </h2>
+                    <p>Мы с гордостью отмечаем, что справедливо оплачиваем труд наших переводчиков и формируем рабочую
+                        среду, в которой царит дух сотрудничества, удовольствия и открытости для всех: культуру, которая
+                        побуждает сотрудников делать великие дела для вас.</p>
+                    <a href="./ru/o-nas.html" class="d-inline-flex align-items-center arrow-link">
+                        О нас
+                        <i class="bi bi-arrow-right m-xl-1"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Any Questions -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row flex-lg-row align-items-center g-5 py-5">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold lh-1 mb-3">Остались еще вопросы? <span>Свяжитесь с нами!</span>
+                    </h2>
+                    <p>Наша команда готова ответить на все ваши вопросы и найти оптимальное решение для реализации ваших
+                        потребностей в переводе.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="./ru/zakazat-perevod.html" class="btn btn-outline-secondary btn-sm me-2">Связаться с
+                            нами</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="./assets/avatar.png" loading="lazy" alt="Project Manager Photo">
+                    <p class="fw-bold">Привет! Я Лилия. <br> Чем могу помочь?</p>
+                    <p>Лилия - менеджер по работе с клиентами.</p>
+                </div>
+            </div>
+        </section>
 
 
+        <!-- Quote -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="card-custom">
+                <div class="row flex-lg-row align-items-center g-3 py-3">
+                    <div class="col-lg-9">
+                        <h2 class="fw-bold lh-1 mb-3 w-75">Узнайте стоимость вашего перевода <span>прямо сейчас</span>
+                        </h2>
+                        <p class="w-75">Заполните форму заказа на перевод. Мы предоставим вам наилучшую стоимость.</p>
+                    </div>
+                    <div class="col-lg-3 d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="./ru/zakazat-perevod.html" class="btn btn-primary btn-sm me-2">Заказать перевод</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-muted border-top">
+            <section>
+                <div class="container text-center text-md-start mt-5 mb-4">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <a class="navbar-brand" href="./index.html"> <img src="./assets/itext_logo.svg" alt="logo">
+                            </a>
+                            <div class="top-buffer">
+                                <a href="./kk/basty.html" class="footer-links">Қазақша</a>
+                            </div>
+                            <div class="top-buffer">
+                                <a href="./index.html" class="footer-links selected-language">Русский</a>
+                            </div>
+                            <div class="top-buffer">
+                                <a href="./en/home.html" class="footer-links">English</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Меню
+                            </h6>
+                            <p>
+                                <a href="./index.html" class="footer-links">Главная</a>
+                            </p>
+                            <p>
+                                <a href="./ru/o-nas.html" class="footer-links">О нас</a>
+                            </p>
+                            <p>
+                                <a href="./ru/dlya-companiy.html" class="footer-links">Компаниям</a>
+                            </p>
+                            <p>
+                                <a href="./ru/dlya-fizlits.html" class="footer-links">Физлицам</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Дополнительная информация
+                            </h6>
+                            <p>
+                                <a href="./ru/usloviya-obsluzhivaniya.html" class="footer-links">Условия оказания
+                                    услуг</a>
+                            </p>
+                            <p>
+                                <a href="./ru/konfidentsialnost.html" class="footer-links">Конфиденциальность</a>
+                            </p>
+
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Контактная информация</h6>
+                            <p><a href="mailto:itext@itext.kz?subject=Заказ перевода с сайта&body=Добрый день! Необходим перевод вложенных документов"
+                                    class="footer-links">itext@itext.kz</a></p>
+                            <p>
+                                <a href="tel:+77182764060" class="footer-links">+7 7182 76 40 60</a>
+                            </p>
+                            <p>
+                                <a href="http://wa.me/77018712531" class="footer-links">Написать в WhatsApp</a>
+                            </p>
+                            <p>
+                                <a href="https://www.google.com/maps/place/%D0%91%D1%8E%D1%80%D0%BE+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2+iText/@52.2841928,76.9440005,18.41z/data=!4m5!3m4!1s0x42f835292c059a2f:0x28d93a069f6a722d!8m2!3d52.2842215!4d76.9434585?hl=ru-KZ"
+                                    class="footer-links" target="_blank">Пл. Победы 25, офис 201, Павлодар,
+                                    Казахстан</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+                <p>©2022 Все права защищены: Бюро переводов iText</p>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+    <!-- Import App -->
+    <script src="./js/app.js"></script>
+
+    <!-- Mount App -->
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
+
 </body>
 
 </html>

@@ -22,6 +22,8 @@
     <link rel="alternate" hreflang="kk-kz" href="https://www.itext.agency/kk/kompaniyalar-ushin.html" />
     <link rel="alternate" hreflang="en-us" href="https://www.itext.agency/en/for-companies.html" />
 
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-857826585"></script>
     <script>
@@ -89,390 +91,399 @@
         </div>
     </nav>
 
-    <!-- Hero -->
+    <div id="app">
+        <!-- Hero -->
 
-    <section class="container">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="../assets/hero_companies.svg" class="d-block mx-lg-auto img-fluid"
-                    alt="Hero Image for Companies Page" width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <p class="tagline">ITEXT АУДАРМА БЮРОСЫ</p>
-                <h1 class="display-5 fw-bold lh-1 mb-3">Біз Сіздің бизнесіңіз үшін <span>жаңа мүмкіндіктер
-                        ұсынамыз</span> </h1>
-                <p class="lead">Сіздің кәсіпорныңыздың аударма қажеттіліктерін қамтамасыз етуге арналған кешенді ұсыныс:
-                    құжаттарды қарапайым аудармадан бастап локализация бойынша мамандандырылған шешімдерге дейін,
-                    сондай-ақ 50-ден астам тілге автоматтандырылған және жедел аударма қызметтері.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <a href="./audarmaga-tapsyrys-beru.html"
-                        class="btn btn-primary btn-lg me-2">Аудармаға тапсырыс беру</a> <a href="./biz-turaly.html"
-                        class="btn btn-outline-secondary btn-lg me-2">Өзіміз туралы</a> </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features -->
-
-    <section class="container px-4 py-lg-5 py-md-3 py-sm-1">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-stretch text-center">
-                <div class="card card-custom border-0">
-                    <img src="../assets/icon_done.svg" class="py-1 icon-custom align-self-center" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Мамандандырылған аудармалар</h5>
-                        <p class="card-text">Жұмыс барысында біз әртүрлі тақырыптағы мәтіндерді – нұсқаулықтар,
-                            сызбалар, келісімшарттар және тағы басқаларды аударуда үлкен тәжірибе жинадық. Біз Сіздің
-                            бизнесіңізді дамыту үшін біліміміз бен тәжірибемізді пайдалануды ұсынамыз.</p>
-                    </div>
+        <section class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="../assets/hero_companies.svg" class="d-block mx-lg-auto img-fluid"
+                        alt="Hero Image for Companies Page" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <p class="tagline">ITEXT АУДАРМА БЮРОСЫ</p>
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Біз Сіздің бизнесіңіз үшін <span>жаңа мүмкіндіктер
+                            ұсынамыз</span> </h1>
+                    <p class="lead">Сіздің кәсіпорныңыздың аударма қажеттіліктерін қамтамасыз етуге арналған кешенді
+                        ұсыныс:
+                        құжаттарды қарапайым аудармадан бастап локализация бойынша мамандандырылған шешімдерге дейін,
+                        сондай-ақ 50-ден астам тілге автоматтандырылған және жедел аударма қызметтері.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <a
+                            href="./audarmaga-tapsyrys-beru.html" class="btn btn-primary btn-lg me-2">Аудармаға тапсырыс
+                            беру</a> <a href="./biz-turaly.html" class="btn btn-outline-secondary btn-lg me-2">Өзіміз
+                            туралы</a> </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col d-flex align-items-stretch text-center">
-                <div class="card card-custom border-0">
-                    <img src="../assets/icon_done.svg" class="py-1 icon-custom align-self-center" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Оқшаулау</h5>
-                        <p class="card-text">Бүгінгі таңда әр компанияның веб – сайты және әрбір үшінші компанияның
-                            мобильді қосымшасы бар. Бізбен бірге Сіз үлкен аудиторияны қамту және жаңа клиенттерді тарту
-                            үшін цифрлы шешімдеріңізді аудара және оқшаулай аласыз.</p>
-                    </div>
-                </div>
-            </div>
+        <!-- Features -->
 
-            <div class="col d-flex align-items-stretch text-center">
-                <div class="card card-custom border-0">
-                    <img src="../assets/icon_done.svg" class="py-1 icon-custom align-self-center" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Процестерді автоматтандыру</h5>
-                        <p class="card-text">Біз жаңа технологияларды жақсы көреміз және оларды табысты қолданамыз. Біз
-                            сіздің контентіңізді аудармаға беру процесін автоматтандыруға көмектесеміз. Бұл әсіресе
-                            интернет-дүкендерге, жаңалықтар порталдарына қатысты, онда материал жиі жаңартылады және оны
-                            тез аудару қажет.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Processes -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row pt-5 row-cols-1 row-cols-lg-12">
-            <div class="col text-center">
-                <h2>Шеберлік процестерден басталады</h2>
-                <p class="testimonial-text">Біз озық технологиялар мен талантты қызметкерлерге сүйене отырып, аударма
-                    қызметтерінің тиімділігін арттыру үшін ұдайы жұмыс жасаймыз.</p>
-            </div>
-        </div>
-
-        <div class="row g-4 pb-4 row-cols-1 row-cols-lg-2">
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Аудармашыларды іріктеу</h5>
-                        <p class="card-text">Біз аудармашыларымызды мұқият таңдаймыз және клиенттеріміздің сұраныстарына
-                            жауап беретін адамдармен ғана жұмыс жасаймыз.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Жобаларды басқару</h5>
-                        <p class="card-text">Жобаны сауатты басқару - табыс кепілі екенін білеміз. Біздің жеке процесті
-                            басқару жүйесі бізге аударуға көмектеседі, ал сіз өзіңіздің бизнес мақсаттарыңызға жетесіз.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 pb-5 row-cols-1 row-cols-lg-2">
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Сапаны бақылау</h5>
-                        <p class="card-text">Аударма сапасы - біздің жұмысымыздың басты критерийі. Бүкіл аударма процесі
-                            ISO 17100:2015 стандартына сәйкес бірнеше кезеңнен тұрады.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Жұмысты тапсыру</h5>
-                        <p class="card-text">Біз әрқашан клиенттің талаптарына сәйкес жұмысты уақытында тапсырамыз. Егер
-                            біз кенеттен тапсыру мерзімін бұзсақ - төлемді толық көлемде қайтарамыз.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row pt-5 row-cols-1 row-cols-lg-12">
-            <div class="col text-center">
-                <h2>Жиі қойылатын сұрақтар мен жауаптар</h2>
-                <p class="testimonial-text">Төменде біз сіздің жиі қойылатын сұрақтарыңызға жауап жинадық.</p>
-            </div>
-        </div>
-
-        <div class="row flex-lg-row align-items-center g-5 py-5">
-            <div class="col-lg-6 col-sm-12">
-                <img src="../assets/faq.svg" class="d-block mx-lg-auto img-fluid" alt="FAQ" width="700" height="500"
-                    loading="lazy">
-            </div>
-
-            <div class="col-lg-6 col-sm-12">
-                <div class="card-custom">
-                    <div class="row">
-                        <div class="col-lg-10 col-md-12">
-                            <h5>Бізде аударма материалдарының үлкен көлемі бар. Сіз жеңілдік бересіз бе?</h5>
-                            <p>Иә, әрине. Біз міндетті түрде Сізбен кездесіп, ең жақсы баға шарттарын ұсынамыз.</p>
+        <section class="container px-4 py-lg-5 py-md-3 py-sm-1">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-stretch text-center">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/icon_done.svg" class="py-1 icon-custom align-self-center" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Мамандандырылған аудармалар</h5>
+                            <p class="card-text">Жұмыс барысында біз әртүрлі тақырыптағы мәтіндерді – нұсқаулықтар,
+                                сызбалар, келісімшарттар және тағы басқаларды аударуда үлкен тәжірибе жинадық. Біз
+                                Сіздің
+                                бизнесіңізді дамыту үшін біліміміз бен тәжірибемізді пайдалануды ұсынамыз.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card-custom top-buffer">
-                    <div class="row">
-                        <div class="col-lg-10 col-md-12">
-                            <h5>Бізде шұғыл аударма бар. Ол қымбатқа түсе ме?</h5>
-                            <p>Егер біз сіздің компанияңызбен үнемі және шарт негізінде ынтымақтасып қызмет істейтін
-                                болсақ, онда біз жеделдігі үшін ақы алмаймыз. Әйтпесе, аударма 2 есе қымбат болады.</p>
+                <div class="col d-flex align-items-stretch text-center">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/icon_done.svg" class="py-1 icon-custom align-self-center" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Оқшаулау</h5>
+                            <p class="card-text">Бүгінгі таңда әр компанияның веб – сайты және әрбір үшінші компанияның
+                                мобильді қосымшасы бар. Бізбен бірге Сіз үлкен аудиторияны қамту және жаңа клиенттерді
+                                тарту
+                                үшін цифрлы шешімдеріңізді аудара және оқшаулай аласыз.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card-custom top-buffer">
-                    <div class="row">
-                        <div class="col-lg-10 col-md-12">
-                            <h5>Біздің компания әрқашан қызмет көрсетілгеннен кейін төлейді. Сіз осылай жұмыс істейсіз
-                                бе?</h5>
-                            <p>Иә, шарт жасасқан жағдайда біз төлем мерзімін 60 күнтізбелік күнге дейін ұсынуға
-                                дайынбыз.</p>
+                <div class="col d-flex align-items-stretch text-center">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/icon_done.svg" class="py-1 icon-custom align-self-center" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Процестерді автоматтандыру</h5>
+                            <p class="card-text">Біз жаңа технологияларды жақсы көреміз және оларды табысты қолданамыз.
+                                Біз
+                                сіздің контентіңізді аудармаға беру процесін автоматтандыруға көмектесеміз. Бұл әсіресе
+                                интернет-дүкендерге, жаңалықтар порталдарына қатысты, онда материал жиі жаңартылады және
+                                оны
+                                тез аудару қажет.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card-custom top-buffer">
-                    <div class="row">
-                        <div class="col-lg-10 col-md-12">
-                            <h5>Сіз бухгалтерияға құжаттар ұсынасыз ба?</h5>
-                            <p>Міндетті түрде, біз Қазақстан Республикасының заңнамасына сәйкес барлық құжаттарды –
-                                шот-фактураларды және орындалған жұмыстардың актілерін ЭШФ АЖ-ға жөнелтеміз.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
+        </section>
 
-    </section>
+        <!-- Processes -->
 
-    <!-- Clients -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="card-custom">
-            <div class="row pt-3 row-cols-1 row-cols-lg-12">
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row pt-5 row-cols-1 row-cols-lg-12">
                 <div class="col text-center">
-                    <h2>Біздің клиенттеріміз</h2>
-                    <p>Нағыз серіктестік - бұл екі бағыттағы қозғалыс: идеялар мен ақпарат бір-бірінің тәжірибесіне
-                        деген өзара сенім мен құрмет негізінде ашық және тұрақты түрде түседі және біздің клиенттеріміз
-                        бұл философияны қабылдайды. </p>
+                    <h2>Шеберлік процестерден басталады</h2>
+                    <p class="testimonial-text">Біз озық технологиялар мен талантты қызметкерлерге сүйене отырып,
+                        аударма
+                        қызметтерінің тиімділігін арттыру үшін ұдайы жұмыс жасаймыз.</p>
                 </div>
             </div>
 
-            <div class="row gy-5 gy-md-6">
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_sulpak.png" loading="lazy" alt="Sulpak Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_nfc.png" loading="lazy" alt="NFC Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_turkpa.png" loading="lazy" alt="TURKPA Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_erg.svg" loading="lazy" alt="ERG Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_eurasian.jpeg" loading="lazy" alt="Eurasian Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_kazmunaygas.png" loading="lazy" alt="KazMunayGaz Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_kios.png" loading="lazy" alt="KIOS Logo">
-                </div>
-                <div class="col-6 col-md-3 align-self-center text-center">
-                    <img class="client-logo" src="../assets/logo_evooil.png" loading="lazy" alt="Evooil Logo">
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- Testimonials -->
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row pt-5 row-cols-1 row-cols-lg-12">
-            <div class="col text-center">
-                <h2>Бізге риза</h2>
-                <p class="testimonial-text">Клиенттеріміз әрқашан біздің қызметтерімізге риза болуы үшін бар күшімізді
-                    саламыз. Осының арқасында біз сенімді аударма бюросы ретінде беделге ие болдық. Біздің алдыңғы
-                    клиенттеріміздің кейбіреулері біздің жұмысымыз бен қызметтеріміз туралы не айтатынын біліңіз.</p>
-            </div>
-        </div>
-
-
-        <div class="row g-4 pb-5 row-cols-1 row-cols-lg-2">
-
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="../assets/stars.svg" class="py-1 icon-stars" alt="">
-                    <div class="card-body">
-                        <p class="testimonial-text">iText аударма бюросына техникалық құжаттаманың үлкен көлемін ағылшын
-                            тілінен орыс тіліне жедел және сапалы аударғаны үшін алғысымызды білдіреміз</p>
-                        <p class="client-name">Чжан Цзяньцзюнь</p>
-                        <p class="testimonial-text">&#171;NFC Kazakhstan&#187; ЖШС</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col d-flex align-items-stretch">
-                <div class="card card-custom border-0">
-                    <img src="../assets/stars.svg" class="py-1 icon-stars" alt="">
-                    <div class="card-body">
-                        <p class="testimonial-text">Біз бірлесіп қызмет еткен кезде бюро көптеген техникалық құжаттарды
-                            аударды. Менеджерлер мен аудармашылардың жұмысы кәсібилігімен, икемділігімен және Тапсырыс
-                            берушіге деген жеке көзқарасымен ерекшеленеді.</p>
-                        <p class="client-name">Антон Гахов</p>
-                        <p class="testimonial-text">&#171;TECHNICAL CAPABILITIES CIS LLP&#187; ЖШС</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Any Questions -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row flex-lg-row align-items-center g-5 py-5">
-            <div class="col-lg-6">
-                <h2 class="fw-bold lh-1 mb-3">Әлі де сұрақтар бар ма? <span>Бізбен хабарласыңыз!</span> </h2>
-                <p>Біздің команда Сіздің барлық сұрақтарыңызға жауап беруге және Сіздің аударма қажеттіліктеріңізді
-                    жүзеге асыру үшін оңтайлы шешім табуға дайын.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="./audarmaga-tapsyrys-beru.html" class="btn btn-outline-secondary btn-sm me-2">Бізбен
-                        байланысу</a>
-                </div>
-            </div>
-            <div class="col-lg-6 text-center">
-                <img src="../assets/avatar.png" loading="lazy" alt="Project Manager Photo">
-                <p class="fw-bold">Сәлем! Мен Лилиямын. <br> Мен қалай көмектесе аламын?</p>
-                <p>Лилия - клиенттермен жұмыс жөніндегі менеджер</p>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Quote -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="card-custom">
-            <div class="row flex-lg-row align-items-center g-3 py-3">
-                <div class="col-lg-9">
-                    <h2 class="fw-bold lh-1 mb-3 w-75">Аударманың құнын дәл <span>қазір біліңіз</span> </h2>
-                    <p class="w-75">Аудармаға тапсырыс нысанын толтырыңыз. Біз Сізге ең жақсы жағдайларды ұсынамыз.</p>
-                </div>
-                <div class="col-lg-3 d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="./audarmaga-tapsyrys-beru.html" class="btn btn-primary btn-sm me-2">Аудармаға тапсырыс
-                        беру</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-muted border-top">
-        <section>
-            <div class="container text-center text-md-start mt-5 mb-4">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <a class="navbar-brand" href="../index.html"> <img src="../assets/itext_logo.svg" alt="logo">
-                        </a>
-                        <div class="top-buffer">
-                            <a href="../kk/basty.html" class="footer-links selected-language">Қазақша</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="../index.html" class="footer-links">Русский</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="../en/home.html" class="footer-links">English</a>
+            <div class="row g-4 pb-4 row-cols-1 row-cols-lg-2">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Аудармашыларды іріктеу</h5>
+                            <p class="card-text">Біз аудармашыларымызды мұқият таңдаймыз және клиенттеріміздің
+                                сұраныстарына
+                                жауап беретін адамдармен ғана жұмыс жасаймыз.</p>
                         </div>
                     </div>
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4"> Мәзір </h6>
-                        <p>
-                            <a href="../kk/basty.html" class="footer-links">Басты бет</a>
-                        </p>
-                        <p>
-                            <a href="../kk/biz-turaly.html" class="footer-links">Өзіміз туралы</a>
-                        </p>
-                        <p>
-                            <a href="../kk/kompaniyalar-ushin.html" class="footer-links">Компанияларға</a>
-                        </p>
-                        <p>
-                            <a href="../kk/zheke-tulgalar-ushin.html" class="footer-links">Жеке тұлғаларға</a>
-                        </p>
+                </div>
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Жобаларды басқару</h5>
+                            <p class="card-text">Жобаны сауатты басқару - табыс кепілі екенін білеміз. Біздің жеке
+                                процесті
+                                басқару жүйесі бізге аударуға көмектеседі, ал сіз өзіңіздің бизнес мақсаттарыңызға
+                                жетесіз.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4"> Қосымша ақпарат </h6>
-                        <p>
-                            <a href="../kk/qyzmet-korsetu-sharttary.html" class="footer-links">Қызметтерді көрсету
-                                шарттары</a>
-                        </p>
-                        <p>
-                            <a href="../kk/kupiyalylyk.html" class="footer-links">Құпиялылық</a>
-                        </p>
+                </div>
+            </div>
 
+            <div class="row g-4 pb-5 row-cols-1 row-cols-lg-2">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Сапаны бақылау</h5>
+                            <p class="card-text">Аударма сапасы - біздің жұмысымыздың басты критерийі. Бүкіл аударма
+                                процесі
+                                ISO 17100:2015 стандартына сәйкес бірнеше кезеңнен тұрады.</p>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Байланыс ақпарат</h6>
-                        <p><a href="mailto:itext@itext.kz?subject=Заказ перевода с сайта&body=Добрый день! Необходим перевод вложенных документов"
-                                class="footer-links">itext@itext.kz</a></p>
-                        <p>
-                            <a href="tel:+77182764060" class="footer-links">+7 7182 76 40 60</a>
-                        </p>
-                        <p>
-                            <a href="http://wa.me/77018712531" class="footer-links">WhatsApp-қа жазу</a>
-                        </p>
-                        <p>
-                            <a href="https://www.google.com/maps/place/%D0%91%D1%8E%D1%80%D0%BE+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2+iText/@52.2841928,76.9440005,18.41z/data=!4m5!3m4!1s0x42f835292c059a2f:0x28d93a069f6a722d!8m2!3d52.2842215!4d76.9434585?hl=ru-KZ"
-                                class="footer-links" target="_blank">Жеңіс алаңы 25, офис 201, Павлодар, Қазақстан</a>
-                        </p>
+                </div>
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/icon_star.svg" class="py-1 icon-custom" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Жұмысты тапсыру</h5>
+                            <p class="card-text">Біз әрқашан клиенттің талаптарына сәйкес жұмысты уақытында тапсырамыз.
+                                Егер
+                                біз кенеттен тапсыру мерзімін бұзсақ - төлемді толық көлемде қайтарамыз.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-            <p>&#169;2022 Барлық құқықтар қорғалған: iText аударма бюросы</p>
-        </div>
-    </footer>
+
+        <!-- FAQ -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row pt-5 row-cols-1 row-cols-lg-12">
+                <div class="col text-center">
+                    <h2>Жиі қойылатын сұрақтар мен жауаптар</h2>
+                    <p class="testimonial-text">Төменде біз сіздің жиі қойылатын сұрақтарыңызға жауап жинадық.</p>
+                </div>
+            </div>
+
+            <div class="row flex-lg-row align-items-center g-5 py-5">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="../assets/faq.svg" class="d-block mx-lg-auto img-fluid" alt="FAQ" width="700" height="500"
+                        loading="lazy">
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card-custom">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-12">
+                                <h5>Бізде аударма материалдарының үлкен көлемі бар. Сіз жеңілдік бересіз бе?</h5>
+                                <p>Иә, әрине. Біз міндетті түрде Сізбен кездесіп, ең жақсы баға шарттарын ұсынамыз.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-custom top-buffer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-12">
+                                <h5>Бізде шұғыл аударма бар. Ол қымбатқа түсе ме?</h5>
+                                <p>Егер біз сіздің компанияңызбен үнемі және шарт негізінде ынтымақтасып қызмет істейтін
+                                    болсақ, онда біз жеделдігі үшін ақы алмаймыз. Әйтпесе, аударма 2 есе қымбат болады.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-custom top-buffer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-12">
+                                <h5>Біздің компания әрқашан қызмет көрсетілгеннен кейін төлейді. Сіз осылай жұмыс
+                                    істейсіз
+                                    бе?</h5>
+                                <p>Иә, шарт жасасқан жағдайда біз төлем мерзімін 60 күнтізбелік күнге дейін ұсынуға
+                                    дайынбыз.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-custom top-buffer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-12">
+                                <h5>Сіз бухгалтерияға құжаттар ұсынасыз ба?</h5>
+                                <p>Міндетті түрде, біз Қазақстан Республикасының заңнамасына сәйкес барлық құжаттарды –
+                                    шот-фактураларды және орындалған жұмыстардың актілерін ЭШФ АЖ-ға жөнелтеміз.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Clients -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="card-custom">
+                <div class="row pt-3 row-cols-1 row-cols-lg-12">
+                    <div class="col text-center">
+                        <h2>Біздің клиенттеріміз</h2>
+                        <p>Нағыз серіктестік - бұл екі бағыттағы қозғалыс: идеялар мен ақпарат бір-бірінің тәжірибесіне
+                            деген өзара сенім мен құрмет негізінде ашық және тұрақты түрде түседі және біздің
+                            клиенттеріміз
+                            бұл философияны қабылдайды. </p>
+                    </div>
+                </div>
+
+                <div class="row logo-list">
+                    <div class="col-lg-2 col-md-4 col-6" v-for="client in clients">
+                        <img :src="client.logo" class="img-fluid" :alt="client.name">
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
+        <!-- Testimonials -->
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row pt-5 row-cols-1 row-cols-lg-12">
+                <div class="col text-center">
+                    <h2>Бізге риза</h2>
+                    <p class="testimonial-text">Клиенттеріміз әрқашан біздің қызметтерімізге риза болуы үшін бар
+                        күшімізді
+                        саламыз. Осының арқасында біз сенімді аударма бюросы ретінде беделге ие болдық. Біздің алдыңғы
+                        клиенттеріміздің кейбіреулері біздің жұмысымыз бен қызметтеріміз туралы не айтатынын біліңіз.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row g-4 pb-5 row-cols-1 row-cols-lg-2">
+
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/stars.svg" class="py-1 icon-stars" alt="">
+                        <div class="card-body">
+                            <p class="testimonial-text">iText аударма бюросына техникалық құжаттаманың үлкен көлемін
+                                ағылшын
+                                тілінен орыс тіліне жедел және сапалы аударғаны үшін алғысымызды білдіреміз</p>
+                            <p class="client-name">Чжан Цзяньцзюнь</p>
+                            <p class="testimonial-text">&#171;NFC Kazakhstan&#187; ЖШС</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-stretch">
+                    <div class="card card-custom border-0">
+                        <img src="../assets/stars.svg" class="py-1 icon-stars" alt="">
+                        <div class="card-body">
+                            <p class="testimonial-text">Біз бірлесіп қызмет еткен кезде бюро көптеген техникалық
+                                құжаттарды
+                                аударды. Менеджерлер мен аудармашылардың жұмысы кәсібилігімен, икемділігімен және
+                                Тапсырыс
+                                берушіге деген жеке көзқарасымен ерекшеленеді.</p>
+                            <p class="client-name">Антон Гахов</p>
+                            <p class="testimonial-text">&#171;TECHNICAL CAPABILITIES CIS LLP&#187; ЖШС</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Any Questions -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row flex-lg-row align-items-center g-5 py-5">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold lh-1 mb-3">Әлі де сұрақтар бар ма? <span>Бізбен хабарласыңыз!</span> </h2>
+                    <p>Біздің команда Сіздің барлық сұрақтарыңызға жауап беруге және Сіздің аударма қажеттіліктеріңізді
+                        жүзеге асыру үшін оңтайлы шешім табуға дайын.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="./audarmaga-tapsyrys-beru.html" class="btn btn-outline-secondary btn-sm me-2">Бізбен
+                            байланысу</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="../assets/avatar.png" loading="lazy" alt="Project Manager Photo">
+                    <p class="fw-bold">Сәлем! Мен Лилиямын. <br> Мен қалай көмектесе аламын?</p>
+                    <p>Лилия - клиенттермен жұмыс жөніндегі менеджер</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Quote -->
+
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="card-custom">
+                <div class="row flex-lg-row align-items-center g-3 py-3">
+                    <div class="col-lg-9">
+                        <h2 class="fw-bold lh-1 mb-3 w-75">Аударманың құнын дәл <span>қазір біліңіз</span> </h2>
+                        <p class="w-75">Аудармаға тапсырыс нысанын толтырыңыз. Біз Сізге ең жақсы жағдайларды ұсынамыз.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="./audarmaga-tapsyrys-beru.html" class="btn btn-primary btn-sm me-2">Аудармаға тапсырыс
+                            беру</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-muted border-top">
+            <section>
+                <div class="container text-center text-md-start mt-5 mb-4">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <a class="navbar-brand" href="../index.html"> <img src="../assets/itext_logo.svg"
+                                    alt="logo">
+                            </a>
+                            <div class="top-buffer">
+                                <a href="../kk/basty.html" class="footer-links selected-language">Қазақша</a>
+                            </div>
+                            <div class="top-buffer">
+                                <a href="../index.html" class="footer-links">Русский</a>
+                            </div>
+                            <div class="top-buffer">
+                                <a href="../en/home.html" class="footer-links">English</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4"> Мәзір </h6>
+                            <p>
+                                <a href="../kk/basty.html" class="footer-links">Басты бет</a>
+                            </p>
+                            <p>
+                                <a href="../kk/biz-turaly.html" class="footer-links">Өзіміз туралы</a>
+                            </p>
+                            <p>
+                                <a href="../kk/kompaniyalar-ushin.html" class="footer-links">Компанияларға</a>
+                            </p>
+                            <p>
+                                <a href="../kk/zheke-tulgalar-ushin.html" class="footer-links">Жеке тұлғаларға</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4"> Қосымша ақпарат </h6>
+                            <p>
+                                <a href="../kk/qyzmet-korsetu-sharttary.html" class="footer-links">Қызметтерді көрсету
+                                    шарттары</a>
+                            </p>
+                            <p>
+                                <a href="../kk/kupiyalylyk.html" class="footer-links">Құпиялылық</a>
+                            </p>
+
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Байланыс ақпарат</h6>
+                            <p><a href="mailto:itext@itext.kz?subject=Заказ перевода с сайта&body=Добрый день! Необходим перевод вложенных документов"
+                                    class="footer-links">itext@itext.kz</a></p>
+                            <p>
+                                <a href="tel:+77182764060" class="footer-links">+7 7182 76 40 60</a>
+                            </p>
+                            <p>
+                                <a href="http://wa.me/77018712531" class="footer-links">WhatsApp-қа жазу</a>
+                            </p>
+                            <p>
+                                <a href="https://www.google.com/maps/place/%D0%91%D1%8E%D1%80%D0%BE+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2+iText/@52.2841928,76.9440005,18.41z/data=!4m5!3m4!1s0x42f835292c059a2f:0x28d93a069f6a722d!8m2!3d52.2842215!4d76.9434585?hl=ru-KZ"
+                                    class="footer-links" target="_blank">Жеңіс алаңы 25, офис 201, Павлодар,
+                                    Қазақстан</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+                <p>&#169;2022 Барлық құқықтар қорғалған: iText аударма бюросы</p>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+    <!-- Import App -->
+    <script src="../js/app.js"></script>
+
+    <!-- Mount App -->
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
 </body>
 
 </html>

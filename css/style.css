@@ -234,22 +234,34 @@ p {
 }
 
 /* 8. Clients Logo Group */
-.client-logo {
-    max-width: 9rem;
-    max-height: 3.5rem;
-    filter: saturate(0%);
-    opacity: 0.35;
+
+.logo-list {
+    padding: 1.25rem 0;
+    text-align: center;
+
 }
 
-.client-logo:hover {
-    filter: saturate(100%);
-    opacity: 1;
+.logo-list img {
+    display: inline-block;
+    max-width: 85%;
+    padding: .9375rem 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(100);
+    -moz-filter: grayscale(100);
+    filter: grayscale(100);
+}
+
+.logo-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+    -webkit-filter: none;
+    -moz-filter: none;
 }
 
 /* 9. Advantages */
 /* Adding some space between card rows */
-.top-buffer { 
-    margin-top: 1.5rem; 
+.top-buffer {
+    margin-top: 1.5rem;
 }
 
 
