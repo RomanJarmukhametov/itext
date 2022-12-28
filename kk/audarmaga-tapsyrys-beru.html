@@ -24,7 +24,7 @@
 
     <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
 
-    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
 
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
@@ -278,167 +278,19 @@
 
     <div id="app">
         <!-- Advantages -->
-
-        <section class="container py-lg-5 py-md-3 py-sm-1">
-            <div class="row py-5">
-                <div class="col-lg-4 col-md-12">
-                    <h2>Біздің артықышылығымыз</h2>
-                    <p>Озық технологиялық тәжірибе мен кәсіби редакторлардың үйлесімі арқылы біз жылдам, тиімді және
-                        сапалы
-                        аударманы қамтамасыз етеміз.</p>
-                </div>
-
-                <div class="col-lg-8 col-md-12 mb-2">
-                    <div class="card-custom">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-12">
-                                <img src="../assets/icon_experience.svg" class="py-1 icon-custom" alt="">
-                            </div>
-                            <div class="col-lg-10 col-md-12">
-                                <h5>Тәжірибе және сенімділік</h5>
-                                <p>2012 жылдан бері біз әртүрлі салалардан келген 1 300 клиент үшін 10,2 миллионнан
-                                    астам
-                                    сөзді 35 тілге аудардық.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-custom top-buffer">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-12">
-                                <img src="../assets/icon_quality.svg" class="py-1 icon-custom" alt="">
-                            </div>
-                            <div class="col-lg-10 col-md-12">
-                                <h5>Процестің тиімділігі</h5>
-                                <p>Біз озық технологиялар мен дарынды қызметкерлердің көмегімен өндірістік процестерді
-                                    жетілдіре отырып, аударма қызметтерінің тиімділігін арттыруға ұмтыламыз.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-custom top-buffer">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-12">
-                                <img src="../assets/icon_one_step.svg" class="py-1 icon-custom" alt="">
-                            </div>
-                            <div class="col-lg-10 col-md-12">
-                                <h5>Бір қадам алда</h5>
-                                <p>Біз сіздің болашақ сұраныстарыңызды қамтитын лингвистикалық қызметтердің кең спектрін
-                                    ұсынамыз: Google Ads-ке жарнамаларды аудару, бағдарламалық жасақтама мен мобильді
-                                    қосымшаларды локализациялау, субтитрлер жасау, қажет болған жағдайда автоматты
-                                    аударманы
-                                    біріктіруге арналған API.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <advantages-section></advantages-section>
 
         <!-- Clients -->
-
-        <section class="container py-lg-5 py-md-3 py-sm-1">
-            <div class="card-custom">
-                <div class="row pt-3 row-cols-1 row-cols-lg-12 h-100">
-                    <div class="col text-center">
-                        <h2>Біздің клиенттеріміз</h2>
-                        <p>Нағыз серіктестік - бұл екі бағыттағы қозғалыс: идеялар мен ақпарат бір-бірінің тәжірибесіне
-                            деген өзара сенім мен құрмет негізінде ашық және тұрақты түрде түседі және біздің
-                            клиенттеріміз
-                            бұл философияны қабылдайды. </p>
-                    </div>
-                </div>
-
-                <div class="row logo-list">
-                    <div class="col-lg-2 col-md-4 col-6" v-for="client in clients">
-                        <img :src="client.logo" class="img-fluid" :alt="client.name">
-                    </div>
-                </div>
-            </div>
-        </section>
+        <client-logos> </client-logos>
 
         <!-- Testimonials -->
-        <section class="container py-lg-5 py-md-3 py-sm-1">
-            <div class="row pt-5 row-cols-1 row-cols-lg-12 h-100">
-                <div class="col text-center">
-                    <h2>Бізге риза</h2>
-                    <p class="testimonial-text">Клиенттеріміз әрқашан біздің қызметтерімізге риза болуы үшін бар
-                        күшімізді
-                        саламыз. Осының арқасында біз сенімді аударма бюросы ретінде беделге ие болдық. Біздің алдыңғы
-                        клиенттеріміздің кейбіреулері біздің жұмысымыз бен қызметтеріміз туралы не айтатынын біліңіз.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4 pb-5 row-cols-1 row-cols-lg-2 h-100">
-                <div class="col d-flex align-items-stretch">
-                    <div class="card card-custom border-0">
-                        <img src="../assets/stars.svg" class="py-1 icon-stars" alt="">
-                        <div class="card-body">
-                            <p class="testimonial-text">iText аударма бюросына техникалық құжаттаманың үлкен көлемін
-                                ағылшын
-                                тілінен орыс тіліне жедел және сапалы аударғаны үшін алғысымызды білдіреміз</p>
-                            <p class="client-name">Чжан Цзяньцзюнь</p>
-                            <p class="testimonial-text">&#171;NFC Kazakhstan&#187; ЖШС</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col d-flex align-items-stretch">
-                    <div class="card card-custom border-0">
-                        <img src="../assets/stars.svg" class="py-1 icon-stars" alt="">
-                        <div class="card-body">
-                            <p class="testimonial-text">iText аударма бюросына менің &quot;Анизотропты ортада
-                                қызусерпімді
-                                толқындардың таралуын аналитикалық зерттеу&quot; монографиямды орыс тілінен ағылшын
-                                тіліне
-                                сапалы аударғаны үшін алғысымды білдіргім келеді.</p>
-                            <p class="client-name">Н.А. Испулов</p>
-                            <p class="testimonial-text">МжАТФ факультетінің деканы, С.Торайғыров атындағы ПМУ</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <testimonials></testimonials>
 
         <!-- Our Working Environment -->
-
-        <section class="container py-lg-5 py-md-3 py-sm-1">
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="../assets/our_family.svg" class="d-block mx-lg-auto img-fluid" alt="Our Family"
-                        width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="fw-bold lh-1 mb-3">Біздің жұмыс <span>атмосферамыз</span> </h2>
-                    <p>Біз аудармашыларымыздың еңбегіне әділ ақы төлейтінімізді және ынтымақтастық рухы, барлығына рахат
-                        пен
-                        ашықтық орнаған жұмыс ортасын: қызметкерлерді сіз үшін үлкен істер жасауға итермелейтін
-                        мәдениетті
-                        қалыптастыратынымызды мақтанышпен атап өтеміз.</p>
-                    <a href="../kk/biz-turaly.html" class="d-inline-flex align-items-center arrow-link"> Өзіміз туралы
-                        <i class="bi bi-arrow-right m-xl-1"></i> </a>
-                </div>
-            </div>
-        </section>
-
+        <our-working-environment></our-working-environment>
 
         <!-- Quote -->
-
-        <section class="container py-lg-5 py-md-3 py-sm-1">
-            <div class="card-custom">
-                <div class="row flex-lg-row align-items-center g-3 py-3">
-                    <div class="col-lg-9">
-                        <h2 class="fw-bold lh-1 mb-3 w-75">Аударманың құнын дәл <span>қазір біліңіз</span> </h2>
-                        <p class="w-75">Аудармаға тапсырыс нысанын толтырыңыз. Біз Сізге ең жақсы жағдайларды ұсынамыз.
-                        </p>
-                    </div>
-                    <div class="col-lg-3 d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="#" class="btn btn-primary btn-sm me-2">Аудармаға тапсырыс беру</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        <quote></quote>
 
         <!-- Footer -->
         <footer class="text-center text-lg-start text-muted border-top">
@@ -509,9 +361,7 @@
                 <p>©2022 Барлық құқықтар қорғалған: iText аударма бюросы</p>
             </div>
         </footer>
-
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
@@ -520,6 +370,13 @@
 
     <!-- Import App -->
     <script src="../js/app.js"></script>
+
+    <!-- Import Components -->
+    <script src="../components/AdvantagesSection.js"></script>
+    <script src="../components/ClientLogos.js"></script>
+    <script src="../components/Testimonials.js"></script>
+    <script src="../components/OurWorkingEnvironment.js"></script>
+    <script src="../components/Quote.js"></script>
 
     <!-- Mount App -->
     <script>

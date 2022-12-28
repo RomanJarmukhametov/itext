@@ -213,6 +213,14 @@ p {
     text-align: center;
 }
 
+.counter {
+    color: var(--neutral100);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
 /* 7. Testimonials */
 .testimonial-text {
     color: var(--neutral90);
@@ -226,6 +234,16 @@ p {
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.75rem;
+}
+
+.user-content p {
+    margin-top: .375rem;
+}
+
+.ratings i {
+    margin-left: .375rem;
+    margin-right: .375rem;
+    color: var(--warning60);
 }
 
 .icon-stars {
@@ -262,6 +280,10 @@ p {
 /* Adding some space between card rows */
 .top-buffer {
     margin-top: 1.5rem;
+}
+
+.bottom-buffer {
+    margin-bottom: 1.5rem;
 }
 
 

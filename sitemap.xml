@@ -3,7 +3,7 @@
 	<url>
 		<loc>https://www.itext.agency</loc>
 		<priority>1.00</priority>
-		<lastmod>2022-12-06</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://www.itext.agency/404.html</loc>
@@ -11,47 +11,67 @@
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/ru/zakazat-perevod.html</loc>
+		<loc>https://www.itext.agency/en/about-us.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/ru/usloviya-obsluzhivaniya.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2022-11-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.itext.agency/ru/spasibo.html</loc>
+		<loc>https://www.itext.agency/en/confidentiality.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/ru/o-nas.html</loc>
+		<loc>https://www.itext.agency/en/for-companies.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-11-28</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/ru/konfidentsialnost.html</loc>
+		<loc>https://www.itext.agency/en/for-individuals.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-12-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.itext.agency/en/home.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-12-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.itext.agency/en/quote.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-12-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.itext.agency/en/terms-of-sale.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/ru/dlya-fizlits.html</loc>
+		<loc>https://www.itext.agency/en/thank-you.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/ru/dlya-companiy.html</loc>
+		<loc>https://www.itext.agency/kk/audarmaga-tapsyrys-beru.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/kk/zheke-tulgalar-ushin.html</loc>
+		<loc>https://www.itext.agency/kk/basty.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-11-29</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/kk/rakmet.html</loc>
+		<loc>https://www.itext.agency/kk/biz-turaly.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-12-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.itext.agency/kk/kompaniyalar-ushin.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-12-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.itext.agency/kk/kupiyalylyk.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
@@ -61,68 +81,48 @@
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/kk/kupiyalylyk.html</loc>
+		<loc>https://www.itext.agency/kk/rakmet.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/kk/kompaniyalar-ushin.html</loc>
+		<loc>https://www.itext.agency/kk/zheke-tulgalar-ushin.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/kk/biz-turaly.html</loc>
+		<loc>https://www.itext.agency/ru/dlya-companiy.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-11-28</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/kk/basty.html</loc>
+		<loc>https://www.itext.agency/ru/dlya-fizlits.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/kk/audarmaga-tapsyrys-beru.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.itext.agency/en/thank-you.html</loc>
+		<loc>https://www.itext.agency/ru/konfidentsialnost.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/en/terms-of-sale.html</loc>
+		<loc>https://www.itext.agency/ru/o-nas.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-12-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.itext.agency/ru/spasibo.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/en/quote.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.itext.agency/en/home.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.itext.agency/en/for-individuals.html</loc>
+		<loc>https://www.itext.agency/ru/usloviya-obsluzhivaniya.html</loc>
 		<priority>0.33</priority>
 		<lastmod>2022-11-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.itext.agency/en/for-companies.html</loc>
+		<loc>https://www.itext.agency/ru/zakazat-perevod.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2022-12-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.itext.agency/en/confidentiality.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2022-11-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.itext.agency/en/about-us.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2022-11-29</lastmod>
+		<lastmod>2022-12-28</lastmod>
 	</url>
 </urlset>
