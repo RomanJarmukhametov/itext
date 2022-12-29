@@ -171,6 +171,8 @@ app.component("hero", {
           return this.kazakhTextCompany;
         case "for-companies.html":
           return this.englishTextCompany;
+        default:
+          return this.russianTextHome;
       }
     },
   },
