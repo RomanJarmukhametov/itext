@@ -5,7 +5,7 @@ app.component("hero", {
     <section class="container">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img :src="language.heroImageSrc" class="d-block mx-lg-auto img-fluid"
+                    <img :src="heroImageSrc" class="d-block mx-lg-auto img-fluid"
                         :alt="language.altText" width="700" height="500">
                 </div>
                 <div class="col-lg-6">
@@ -24,7 +24,7 @@ app.component("hero", {
   data() {
     return {
       russianTextHome: {
-        heroImageSrc: "/assets/hero_home.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_home.svg",
         altText: "Hero Image for Home Page",
         taglineText: "БЮРО ПЕРЕВОДОВ ITEXT",
         titleText: "Профессиональные переводы",
@@ -37,7 +37,7 @@ app.component("hero", {
         secondaryButtonText: "О нас",
       },
       kazakhTextHome: {
-        heroImageSrc: "../assets/hero_home.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_home.svg",
         altText: "Hero Image for Home Page",
         taglineText: "ITEXT АУДАРМА БЮРОСЫ",
         titleText: "Сіз және сіздің бизнесіңіз үшін",
@@ -50,7 +50,7 @@ app.component("hero", {
         secondaryButtonText: "Өзіміз туралы",
       },
       englishTextHome: {
-        heroImageSrc: "../assets/hero_home.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_home.svg",
         altText: "Hero Image for Home Page",
         taglineText: "ITEXT TRANSLATION AGENCY",
         titleText: "Professional translations",
@@ -63,7 +63,7 @@ app.component("hero", {
         secondaryButtonText: "About Us",
       },
       russianTextIndividuals: {
-        heroImageSrc: "../assets/hero_individuals.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_individuals.svg",
         altText: "Hero Image for Individuals Page",
         taglineText: "БЮРО ПЕРЕВОДОВ ITEXT",
         titleText: "Перевод личных документов",
@@ -76,7 +76,7 @@ app.component("hero", {
         secondaryButtonText: "О нас",
       },
       kazakhTextIndividuals: {
-        heroImageSrc: "../assets/hero_individuals.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_individuals.svg",
         altText: "Hero Image for Individuals Page",
         taglineText: "ITEXT АУДАРМА БЮРОСЫ",
         titleText: "Жеке құжаттарды",
@@ -89,7 +89,7 @@ app.component("hero", {
         secondaryButtonText: "Өзіміз туралы",
       },
       englishTextIndividuals: {
-        heroImageSrc: "../assets/hero_individuals.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_individuals.svg",
         altText: "Hero Image for Individuals Page",
         taglineText: "ITEXT TRANSLATION AGENCY",
         titleText: "Translation of personal documents",
@@ -103,7 +103,7 @@ app.component("hero", {
       },
 
       russianTextCompany: {
-        heroImageSrc: "../assets/hero_companies.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_companies.svg",
         altText: "Hero Image for Companies Page",
         taglineText: "БЮРО ПЕРЕВОДОВ ITEXT",
         titleText: "Мы предоставляем новые возможности",
@@ -116,7 +116,7 @@ app.component("hero", {
         secondaryButtonText: "О нас",
       },
       kazakhTextCompany: {
-        heroImageSrc: "../assets/hero_companies.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_companies.svg",
         altText: "Hero Image for Companies Page",
         taglineText: "ITEXT АУДАРМА БЮРОСЫ",
         titleText: "Біз Сіздің бизнесіңіз үшін",
@@ -129,7 +129,7 @@ app.component("hero", {
         secondaryButtonText: "Өзіміз туралы",
       },
       englishTextCompany: {
-        heroImageSrc: "../assets/hero_companies.svg",
+        heroImageSrc: "https://itext.agency/assets/hero_companies.svg",
         altText: "Hero Image for Companies Page",
         taglineText: "ITEXT TRANSLATION AGENCY",
         titleText: "We provide new opportunities",

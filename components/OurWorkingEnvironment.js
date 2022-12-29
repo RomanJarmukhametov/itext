@@ -5,7 +5,7 @@ app.component("our-working-environment", {
     <section class="container py-lg-5 py-md-3 py-sm-1">
             <div class="row flex-lg-row align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="https://www.itext.agency/assets/our_family.svg" class="d-block mx-lg-auto img-fluid" alt="Our Family" width="700"
+                    <img src="https://itext.agency/assets/our_family.svg" class="d-block mx-lg-auto img-fluid" alt="Our Family" width="700"
                         height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6">

@@ -13,7 +13,7 @@ app.component("any-questions", {
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="https://www.itext.agency/assets/avatar.png" loading="lazy" alt="Project Manager Photo">
+                    <img src="https://itext.agency/assets/avatar.png" loading="lazy" alt="Project Manager Photo">
                     <p class="fw-bold"> {{language.titleSecond}} <br> {{language.titleSecondSpan}} </p>
                     <p> {{language.textSecond}} </p>
                 </div>
@@ -27,7 +27,7 @@ app.component("any-questions", {
         titleFirstSpan: "Свяжитесь с нами!",
         textFirst:
           "Наша команда готова ответить на все ваши вопросы и найти оптимальное решение для реализации ваших потребностей в переводе.",
-        link: "https://www.itext.agency/ru/zakazat-perevod.html",
+        link: "https://itext.agency/ru/zakazat-perevod.html",
         linkText: "Связаться с нами",
         titleSecond: "Привет! Я Лилия.",
         titleSecondSpan: "Чем могу помочь?",
@@ -38,7 +38,7 @@ app.component("any-questions", {
         titleFirstSpan: "Бізбен хабарласыңыз!",
         textFirst:
           "Біздің команда Сіздің барлық сұрақтарыңызға жауап беруге және Сіздің аударма қажеттіліктеріңізді жүзеге асыру үшін оңтайлы шешім табуға дайын.",
-        link: "https://www.itext.agency/kk/audarmaga-tapsyrys-beru.html",
+        link: "https://itext.agency/kk/audarmaga-tapsyrys-beru.html",
         linkText: "Бізбен байланысу",
         titleSecond: "Сәлем! Мен Лилиямын.",
         titleSecondSpan: "Мен қалай көмектесе аламын?",
@@ -49,7 +49,7 @@ app.component("any-questions", {
         titleFirstSpan: "Contact us!",
         textFirst:
           "Our team is ready to answer all your questions and find the best solution for your translation needs.",
-        link: "https://www.itext.agency/en/quote.html",
+        link: "https://itext.agency/en/quote.html",
         linkText: "Contact Us",
         titleSecond: "Hi! I am Liliya.",
         titleSecondSpan: "How can I help you?",

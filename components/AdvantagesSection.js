@@ -33,19 +33,19 @@ app.component("advantages-section", {
 
       russianText: [
         {
-          icon: "https://www.itext.agency/assets/icon_experience.svg",
+          icon: "https://itext.agency/assets/icon_experience.svg",
           headerText: "Опыт и уверенность",
           paragraphText:
             "С 2012 года мы перевели более 10,2 миллиона слов на 35 языков для 1 300 клиентов из различных отраслей.",
         },
         {
-          icon: "https://www.itext.agency/assets/icon_quality.svg",
+          icon: "https://itext.agency/assets/icon_quality.svg",
           headerText: "Эффективность процесса",
           paragraphText:
             "Мы стремимся повысить эффективность переводческих услуг, совершенствуя производственные процессы с помощью передовых технологий и талантливых сотрудников.",
         },
         {
-          icon: "https://www.itext.agency/assets/icon_one_step.svg",
+          icon: "https://itext.agency/assets/icon_one_step.svg",
           headerText: "На шаг впереди",
           paragraphText:
             "Мы оказываем широкий спектр лингвистических услуг, которые покрывают все ваши будущие запросы: перевод объявлений в Google Ads, локализация программного обеспечения и мобильных приложений, создание субтитров, а также API для интеграции автоматического перевода везде, где это необходимо.",
@@ -59,19 +59,19 @@ app.component("advantages-section", {
       },
       englishText: [
         {
-          icon: "https://www.itext.agency/assets/icon_experience.svg",
+          icon: "https://itext.agency/assets/icon_experience.svg",
           headerText: "Experience and Confidence",
           paragraphText:
             "Since 2012, we have translated over 10.2 million words into 35 languages for 1,300 clients in various industries.",
         },
         {
-          icon: "https://www.itext.agency/assets/icon_quality.svg",
+          icon: "https://itext.agency/assets/icon_quality.svg",
           headerText: "Process Efficiency",
           paragraphText:
             "We strive to improve the efficiency of our translation services by improving our production processes with the help of advanced technology and talented employees.",
         },
         {
-          icon: "https://www.itext.agency/assets/icon_one_step.svg",
+          icon: "https://itext.agency/assets/icon_one_step.svg",
           headerText: "One Step Ahead",
           paragraphText:
             "We provide a wide range of linguistic services that cover all your future needs: translation of ads in Google Ads, localization of software and mobile applications, creation of subtitles, as well as API for automatic translation integration wherever it is needed.",
@@ -84,19 +84,19 @@ app.component("advantages-section", {
       },
       kazakhText: [
         {
-          icon: "https://www.itext.agency/assets/icon_experience.svg",
+          icon: "https://itext.agency/assets/icon_experience.svg",
           headerText: "Тәжірибе және сенімділік",
           paragraphText:
             "2012 жылдан бері біз әртүрлі салалардан келген 1 300 клиент үшін 10,2 миллионнан астам сөзді 35 тілге аудардық.",
         },
         {
-          icon: "https://www.itext.agency/assets/icon_quality.svg",
+          icon: "https://itext.agency/assets/icon_quality.svg",
           headerText: "Процестің тиімділігі",
           paragraphText:
             "Біз озық технологиялар мен дарынды қызметкерлердің көмегімен өндірістік процестерді жетілдіре отырып, аударма қызметтерінің тиімділігін арттыруға ұмтыламыз.",
         },
         {
-          icon: "https://www.itext.agency/assets/icon_one_step.svg",
+          icon: "https://itext.agency/assets/icon_one_step.svg",
           headerText: "Бір қадам алда",
           paragraphText:
             "Біз сіздің болашақ сұраныстарыңызды қамтитын лингвистикалық қызметтердің кең спектрін ұсынамыз: Google Ads-ке жарнамаларды аудару, бағдарламалық жасақтама мен мобильді  қосымшаларды локализациялау, субтитрлер жасау, қажет болған жағдайда автоматты аударманы біріктіруге арналған API.",

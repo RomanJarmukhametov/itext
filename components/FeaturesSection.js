@@ -28,7 +28,7 @@ app.component("features-section", {
             "Оптимальное решение, сочетающее в себе современные информационные технологии и квалифицированных переводчиков для повышения качества переводов.",
           link: "./ru/dlya-fizlits.html",
           linkText: "Узнать больше",
-          icon: "https://www.itext.agency/assets/icon_translations.svg",
+          icon: "https://itext.agency/assets/icon_translations.svg",
         },
         {
           headerText: "Решения для компаний",
@@ -36,7 +36,7 @@ app.component("features-section", {
             "Бесперебойное выполнение переводов в глобальном масштабе с помощью рабочих процессов и технологий, позволяющих ускорить выход на рынок и повысить общую эффективность.",
           link: "./ru/dlya-companiy.html",
           linkText: "Узнать больше",
-          icon: "https://www.itext.agency/assets/icon_enterprise_solutions.svg",
+          icon: "https://itext.agency/assets/icon_enterprise_solutions.svg",
         },
         {
           headerText: "Инструменты для локализации",
@@ -44,7 +44,7 @@ app.component("features-section", {
             "Современные и в то же время простые в использовании инструменты перевода для непрерывной локализации, извлечения контента из 71 формата файлов.",
           link: "./ru/dlya-companiy.html",
           linkText: "Узнать больше",
-          icon: "https://www.itext.agency/assets/icon_localization.svg",
+          icon: "https://itext.agency/assets/icon_localization.svg",
         },
       ],
       englishText: [
@@ -54,7 +54,7 @@ app.component("features-section", {
             "An optimal solution that combines state-of-the-art information  technology and skilled translators to improve the quality of translations.",
           link: "./for-individuals.html",
           linkText: "Find out more",
-          icon: "https://www.itext.agency/assets/icon_translations.svg",
+          icon: "https://itext.agency/assets/icon_translations.svg",
         },
         {
           headerText: "Solutions for Companies",
@@ -62,7 +62,7 @@ app.component("features-section", {
             "Smoothly execute translations on a global scale with workflows and technologies to accelerate time-to-market and improve overall efficiency.",
           link: "./for-companies.html",
           linkText: "Find out more",
-          icon: "https://www.itext.agency/assets/icon_enterprise_solutions.svg",
+          icon: "https://itext.agency/assets/icon_enterprise_solutions.svg",
         },
         {
           headerText: "Localization Tools",
@@ -70,7 +70,7 @@ app.component("features-section", {
             "Modern yet easy-to-use translation tools for continuous localization, extracting content from 71 file formats.",
           link: "./for-companies.html",
           linkText: "Find out more",
-          icon: "https://www.itext.agency/assets/icon_localization.svg",
+          icon: "https://itext.agency/assets/icon_localization.svg",
         },
       ],
       kazakhText: [
@@ -80,7 +80,7 @@ app.component("features-section", {
             "Аудармалардың сапасын жақсарту үшін заманауи ақпараттық технологиялар мен білікті аудармашыларды біріктіретін оңтайлы шешім.",
           link: "../kk/zheke-tulgalar-ushin.html",
           linkText: "Көбірек білу",
-          icon: "https://www.itext.agency/assets/icon_translations.svg",
+          icon: "https://itext.agency/assets/icon_translations.svg",
         },
         {
           headerText: "Компаниялар үшін шешімдер",
@@ -88,7 +88,7 @@ app.component("features-section", {
             "Нарыққа шығуды жеделдетуге және жалпы тиімділікті арттыруға мүмкіндік беретін жұмыс процестері мен технологиялары арқылы жаһандық ауқымда аудармаларды үздіксіз орындау.",
           link: "../kk/kompaniyalar-ushin.html",
           linkText: "Көбірек білу",
-          icon: "https://www.itext.agency/assets/icon_enterprise_solutions.svg",
+          icon: "https://itext.agency/assets/icon_enterprise_solutions.svg",
         },
         {
           headerText: "Оқшаулау құралдары",
@@ -96,7 +96,7 @@ app.component("features-section", {
             "Үздіксіз оқшаулау, 71 файл пішімінен мазмұнды шығару үшін заманауи және сонымен бірге қолдануға оңай аударма құралдары.",
           link: "../kk/kompaniyalar-ushin.html",
           linkText: "Көбірек білу",
-          icon: "https://www.itext.agency/assets/icon_localization.svg",
+          icon: "https://itext.agency/assets/icon_localization.svg",
         },
       ],
     };

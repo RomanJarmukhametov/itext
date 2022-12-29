@@ -42,27 +42,27 @@ app.component("client-logos", {
 
       clients: [
         {
-          logo: "https://www.itext.agency/assets/logo_erg.svg",
+          logo: "https://itext.agency/assets/logo_erg.svg",
           name: "ERG",
         },
         {
-          logo: "https://www.itext.agency/assets/logo_kazmunaygas.png",
+          logo: "https://itext.agency/assets/logo_kazmunaygas.png",
           name: "Kazmunaygas",
         },
         {
-          logo: "https://www.itext.agency/assets/logo_nfc.png",
+          logo: "https://itext.agency/assets/logo_nfc.png",
           name: "NFC",
         },
         {
-          logo: "https://www.itext.agency/assets/logo_sulpak.png",
+          logo: "https://itext.agency/assets/logo_sulpak.png",
           name: "Sulpak",
         },
         {
-          logo: "https://www.itext.agency/assets/logo_eurasian.jpeg",
+          logo: "https://itext.agency/assets/logo_eurasian.jpeg",
           name: "Eurasian",
         },
         {
-          logo: "https://www.itext.agency/assets/logo_kios.png",
+          logo: "https://itext.agency/assets/logo_kios.png",
           name: "Kios",
         },
       ],
