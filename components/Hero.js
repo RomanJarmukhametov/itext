@@ -24,7 +24,7 @@ app.component("hero", {
   data() {
     return {
       russianTextHome: {
-        heroImageSrc: "./assets/hero_home.svg",
+        heroImageSrc: "/assets/hero_home.svg",
         altText: "Hero Image for Home Page",
         taglineText: "БЮРО ПЕРЕВОДОВ ITEXT",
         titleText: "Профессиональные переводы",
