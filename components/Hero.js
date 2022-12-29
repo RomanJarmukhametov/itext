@@ -5,7 +5,7 @@ app.component("hero", {
     <section class="container">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img :src="heroImageSrc" class="d-block mx-lg-auto img-fluid"
+                    <img :src="language.heroImageSrc" class="d-block mx-lg-auto img-fluid"
                         :alt="language.altText" width="700" height="500">
                 </div>
                 <div class="col-lg-6">
