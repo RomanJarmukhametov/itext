@@ -22,6 +22,8 @@
     <link rel="alternate" hreflang="kk-kz" href="https://itext.agency/kk/kupiyalylyk.html" />
     <link rel="alternate" hreflang="en-us" href="https://itext.agency/en/confidentiality.html" />
 
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-857826585"></script>
     <script>
@@ -55,316 +57,337 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary-custom">
-        <div class="container">
-            <a class="navbar-brand" href="./home.html"> <img src="../assets/itext_logo.svg" alt="logo"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./for-companies.html">Companies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./for-individuals.html">Individuals</a>
-                    </li>
-                </ul>
+    <div id="app">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-primary-custom">
+            <div class="container">
+                <a class="navbar-brand" href="./home.html"> <img src="../assets/itext_logo.svg" alt="logo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./for-companies.html">Companies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./for-individuals.html">Individuals</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Text -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row pt-5 row-cols-1 row-cols-lg-12">
-            <div class="col">
-                <h1>Privacy and Cookie Policy</h1>
-                <p>Published on November 5, 2021.</p>
-                <h2>1. Privacy Policy</h2>
-                <p>iText LLP, registered under the laws of the Republic of Kazakhstan, observes and protects the privacy
-                    of users of the site with the domain itext.agency, making every possible and proportional effort not
-                    to violate their rights.</p>
-                <p>This privacy policy aims to explain to users the procedures iText LLP uses to protect their data,
-                    namely, what personal data is collected, why it is collected, how it is used, how it is covered, and
-                    what rights the user has.</p>
-                <p>This privacy policy does not cover our responsibility to protect third parties data, information, or
-                    other activities, including those who operate the sites or services to which itext.agency links.</p>
-                <p>This privacy policy applies to all personal data that iText LLP acquires or processes when users
-                    interact with itext.agency website. This includes buying and using our services, responding to
-                    marketing messages, and contacting iText LLP customer support. These interactions may relate to
-                    visitors, customers, suppliers, and/or partners.</p>
-                <p>In addition, iText LLP processes personal data obtained from sources other than the itext.agency
-                    website, for which a different privacy policy is required.</p>
-                <h2>2. General information about data processing</h2>
-                <p>Throughout this Privacy Policy, the term &quot;personal information&quot; means information that
-                    identifies users. It allows us to identify users directly or in combination with other information
-                    at our disposal.</p>
-                <h3><strong>Site users in general</strong></h3>
-                <p>iText LLP processes user data based on consent. By using or visiting the iText LLP website, users
-                    explicitly accept this privacy policy and consent to processing their personal data for the purposes
-                    and methods described below, including disclosure to third parties if necessary to provide the
-                    service. Providing data and consent to its collection and processing is not mandatory. The user may
-                    refuse permission and withdraw consent at any time. However, denying permission may make it
-                    impossible to provide some services and adversely affect the site&#39;s navigation.</p>
-                <h3><strong>Clients</strong></h3>
-                <p>iText LLP undertakes to do everything possible to ensure maximum confidentiality in providing
-                    services, as far as the electronic form of the service is concerned. All texts, the nature of the
-                    work performed, personal data of the client transmitted for translation purposes, and any
-                    information transmitted by the client to iText LLP are strictly confidential, and the personal data
-                    obtained is processed under Article 6 of the GDPR.</p>
-                <p>In particular, iText LLP uses the provided information only for contract execution (and for possible
-                    pre-contractual operations) and may not - without the prior written consent of the customer -
-                    publicly disclose or transfer such information to third parties, except to authorized employees or
-                    suppliers, if their operational or consulting intervention requires access to such information. The
-                    above guarantees do not apply if iText LLP undertakes to disclose such information as required by
-                    law or if such information is or will be in the public domain regardless of its disclosure by iText
-                    LLP. The same applies when the vital interests of the data subject or another natural person require
-                    the processing of personal data or when processing is necessary to protect the legitimate interests
-                    of iText LLP or third parties whose importance is greater than the rights of the data subject.</p>
-                <h3><strong>Suppliers and employees</strong></h3>
-                <p>The personal information of our suppliers and freelancers (suppliers, interpreters, translators,
-                    graphic designers, partner organizations, consultants, etc.) is treated with the utmost
-                    confidentiality. The only information that is shared with third parties is the information posted on
-                    our site: your username, your native language, experience, and education. Other information,
-                    including full name, date of birth, addresses, and telephone numbers, is used only by iText LLP and
-                    its authorized vendors (e.g., accounting firms, banks, etc.) for purposes related to current
-                    operations.</p>
-                <h2>3. Automatically collected information. Webview data</h2>
-                <p>Like all Web sites, this site also uses log files that automatically collect and store information
-                    about user visits. The information collected may include the following:</p>
-                <ul role="list">
-                    <li>your IP address</li>
-                    <li>the type of browser and parameters of the device used to connect to the site</li>
-                    <li>the name of the Internet Service Provider (ISP)</li>
-                    <li>the date and time of the visit/request</li>
-                    <li>the number of clicks, where possible</li>
-                    <li>method used to send the request to the server</li>
-                    <li>the size of the file received in response</li>
-                    <li>a numeric code indicating the status of the response from the server</li>
-                    <li>Other parameters related to the operating system and the user&#39;s IT environment</li>
-                </ul>
-                <p>The information above is processed automatically and is only collected in aggregate form to ensure
-                    the proper functioning of the site and for security reasons. For security purposes (spam filters,
-                    firewalls, virus detection), automatically logged data may also include personal information, such
-                    as the IP address (which uniquely identifies a computer at a given time), which can be used - under
-                    current legislation governing this matter - to block attempts to harm the site or other users, to
-                    commit malicious and criminal acts. This type of data is used to protect the site and its users.</p>
-                <p>The data listed is used for the sole purpose of obtaining anonymous statistical information about the
-                    use of the site and to verify its proper functioning. Consequently, the data is deleted immediately
-                    after processing. Data used for security purposes (blocking attempts to harm the site) is stored for
-                    seven days.</p>
-                <h2>4. Use of cookies</h2>
-                <h3><strong>What are cookies.</strong></h3>
-                <p>A cookie is a small text file sent to your browser from a website you visit and then stored on your
-                    computer&#39;s hard drive. If you reconnect to this site, the cookies are re-read and recognized by
-                    the site that sent them. When you visit a website, you may receive cookies from third-party sites
-                    (called &quot;third-party cookies&quot;), such as links to web pages on other domains.</p>
-                <p>Cookies can be used for various purposes, such as recognizing a user&#39;s device by the website,
-                    tracking sessions, and remembering specific information about users who access the server.</p>
-                <h3><strong>Types of cookies</strong></h3>
-                <p>Technical cookies are necessary for the proper functioning of the site and for you to benefit from
-                    its services.</p>
-                <p>Functionality cookies make it easier for you to navigate the site, remember your selections, and
-                    tailor the functionality to your requirements.</p>
-                <p>The site uses analytics cookies to collect information about the site&#39;s use, visited pages, and
-                    any errors that may occur while browsing. These cookies do not collect personally identifiable
-                    information about your computer. All information collected by such cookies is combined into a single
-                    array and, therefore, anonymous.</p>
-                <p>However, the user can disable analytics cookies anytime by using the instructions below.</p>
-                <h3><strong>Disabling cookies</strong></h3>
-                <p>You can allow or disallow cookies anytime and erase any installed cookies by adjusting your browser
-                    settings. The company cannot guarantee the site&#39;s proper operation if cookies are disabled.</p>
-                <p>The procedure for adjusting settings differs depending on the browser. </p>
-                <h2>5. Third-party files of a cookie</h2>
-                <p>This site also acts as an intermediary for third-party cookies, which are used to provide additional
-                    services and features to users. They also enhance the site&#39;s user interface with buttons for
-                    social media or video. This site has no access to or control over third-party cookies - they are
-                    managed entirely by third parties. As a consequence, information about the use of these cookies and
-                    their purposes, as well as how to disable them, is provided directly by third parties on the pages
-                    listed below.</p>
-                <h3><strong>Social Networks</strong></h3>
-                <p>This site also includes plugins and/or social media buttons to provide easy access to content on your
-                    favorite social networks. These plugins are programmed not to set cookies to protect your privacy.
-                    The cookies can only be installed if provided by social media when you explicitly use the plugin of
-                    your own volition. Please note: If you browse the website by logging into a social network, you had
-                    already consented to the use of cookies sent through this site when you registered for the social
-                    network.</p>
-                <p>The collection and use of data obtained through plug-ins is governed by the relevant social media
-                    privacy policies.</p>
-                <h2>6. Mailing lists and emails</h2>
-                <p>They may contain a confirmation of orders or subscriptions to the newsletter. In correspondence with
-                    you, we may also provide you with information about iText LLP services. In addition, in the case of
-                    newsletters, we record (for example, with the help of the so-called &quot;tracking pixel&quot;) that
-                    the email has been read and the links contained therein have been clicked. This allows us to
-                    optimize our offerings and tailor them to your needs. Thanks to this data, we can send you the news
-                    that will interest you personally.</p>
-                <p>You can decline these types of processing at www.itext.agency. For example, you can change your
-                    online profile or unsubscribe from our newsletter, and you can contact the data controller at the
-                    address below.</p>
-                <h2>7. Place of data processing</h2>
-                <p>The data collected by this site is processed at the data controller&#39;s main office and the web
-                    data center. GitHub Pages, responsible for data processing and handling data on behalf of the data
-                    controller, is located in the European Economic Area and operates under European standards.</p>
-                <h2>8. Data transmission in non-EU countries</h2>
-                <p>This site may transfer some collected data to servers outside the European Union. Specifically
-                    through Google, Facebook, and Microsoft (LinkedIn) through social plugins and Google Analytics. The
-                    transfer is permitted based on specific European Union and Guarantor regulations on protecting
-                    personal data, particularly Regulation 1250/2016 (Data Privacy Protector), for which no additional
-                    consent is required. The companies mentioned above guarantee compliance with the provisions of the
-                    Data Privacy Shield.</p>
-                <h2>9. Precautions</h2>
-                <p>This site processes your data according to the law and with appropriate security measures to prevent
-                    unauthorized access, disclosure, modification, or destruction. We process your data using a computer
-                    and/or electronic tools, applying the appropriate organizational, technical, and administrative
-                    measures to protect personal data using criteria strictly related to the stated purposes.
-                    Unfortunately, no data transfer tool and no storage system can guarantee 100% data integrity. Please
-                    get in touch with us if you feel that your data transmitted to us while using the site is not
-                    sufficiently protected.</p>
-                <p>In addition to the data controller, in some cases, access to stored personal data may be granted to
-                    other parties involved in the site (administration, sales, legal, and system administrators) or to
-                    other companies (such as third-party tech support providers, courier companies, hosting providers,
-                    IT companies and communications agencies), which, if necessary, may be assigned by the data
-                    controller to process personal data.</p>
-                <p>Your personal information should be kept for as long as necessary or permitted in light of the
-                    purposes for which it is collected. The criteria adopted for determining retention periods are as
-                    follows: (i) the period of regular use of itext.agency; (ii) the need for us to fulfill a contract
-                    or legal obligation; (iii) the ability to retain data in light of our legal position (for example,
-                    concerning deadlines, disputes, or regulatory compliance checks).</p>
-                <h2>10. User rights</h2>
-                <p>Under the GDPR and Kazakh law, in the manner and to the extent permitted by applicable law, you have
-                    the following rights concerning your personal data:</p>
-                <ul role="list">
-                    <li>request confirmation of your personal data (access rights)</li>
-                    <li>know the source from which they were obtained</li>
-                    <li>get a clear explanation</li>
-                    <li>obtain information about the criteria, methods, and purposes of processing</li>
-                    <li>request an update, correction, integration, cancellation, conversion into anonymous form,
-                        blocking of data processed in violation of the law, including when it is no longer needed to
-                        achieve the purposes for which it was obtained</li>
-                    <li>in the case of consent-based processing, obtain any reference to the data that has been provided
-                        to the data controller in a structured and readable form, completed by the data processor, and
-                        in a format normally available on electronic devices</li>
-                    <li>the right to file a complaint with the supervisory authorities</li>
-                    <li>as well as, in general, to exercise all rights that are recognized by applicable law</li>
-                </ul>
-                <p>Requests must be addressed to the data controller. In particular, you can exercise your rights
-                    regarding processing personal data by contacting www.itext.agency, for example, by changing your
-                    online profile, unsubscribing to our newsletter, or contacting the data controller at the address
-                    listed above. We will respond to the request under applicable law. Remember to indicate in your
-                    request which personal information you would like to have changed or removed from our database and
-                    how you would like to limit the use of your personal information. Remember that we may need to
-                    retain certain information to register and/or complete a transaction you initiated before requesting
-                    a change or restriction.</p>
-                <h2>11. Special information for parents</h2>
-                <p>The itext.agency website is not intended for use by children, as required by law, and we do not
-                    knowingly collect personal information about minors. However, iText LLP is committed to complying
-                    with legal provisions that require parent or guardian permission to collect, use or disclose the
-                    personal information of minors. We guarantee the protection of minors&#39; personal information and
-                    encourage parents and guardians to regulate children&#39;s Internet use and protect their interests.
-                </p>
-                <p>If you, as a parent or guardian, become aware that a child has provided us with personal information
-                    without your consent, please get in touch with the data controller at the address below. In turn, if
-                    we find out that the child has given us his or her personal information, we will remove it from our
-                    files.</p>
-                <h2>12. Data controller</h2>
-                <p>The data controller - under the GDPR and other data protection laws of the RoK and other data
-                    protection provisions - is iText LLP and can be contacted at the following email address: <a
-                        href="mailto:itext@itext.kz">itext@itext.kz</a>.</p>
-                <p>The data processor is GitHub Pages Web Hosting.</p>
-                <h2>13. Specialist in the protection of personal data</h2>
-                <p>The data protection specialist of iText LLP is Mr. Roman Jarmukhametov. He can be reached at the
-                    following address <a href="mailto:roman@itext.agency">roman@itext.agency</a>.</p>
-                <h2>14. Updates</h2>
-                <p>This privacy policy was updated on November 5, 2021.</p>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-muted border-top">
-        <section>
-            <div class="container text-center text-md-start mt-5 mb-4">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <a class="navbar-brand" href="./home.html"> <img src="../assets/itext_logo.svg" alt="logo">
-                        </a>
-                        <div class="top-buffer">
-                            <a href="../kk/basty.html" class="footer-links">Қазақша</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="../index.html" class="footer-links">Русский</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="./home.html" class="footer-links selected-language">English</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4"> Menu </h6>
-                        <p>
-                            <a href="./home.html" class="footer-links">Home</a>
-                        </p>
-                        <p>
-                            <a href="./about-us.html" class="footer-links">About Us</a>
-                        </p>
-                        <p>
-                            <a href="./for-companies.html" class="footer-links">Companies</a>
-                        </p>
-                        <p>
-                            <a href="./for-individuals.html" class="footer-links">Individuals</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4"> Further information </h6>
-                        <p>
-                            <a href="./terms-of-sale.html" class="footer-links">Terms of Service</a>
-                        </p>
-                        <p>
-                            <a href="./confidentiality.html" class="footer-links">Confidentiality</a>
-                        </p>
-
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Contacts</h6>
-                        <p><a href="mailto:itext@itext.kz?subject=Order a translation from the site&body=Hello! We need to translate the attached documents"
-                                class="footer-links">itext@itext.kz</a></p>
-                        <p>
-                            <a href="tel:+77182764060" class="footer-links">+7 7182 76 40 60</a>
-                        </p>
-                        <p>
-                            <a href="http://wa.me/77018712531" class="footer-links">WhatsApp Us</a>
-                        </p>
-                        <p>
-                            <a href="https://www.google.com/maps/place/%D0%91%D1%8E%D1%80%D0%BE+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2+iText/@52.2841928,76.9440005,18.41z/data=!4m5!3m4!1s0x42f835292c059a2f:0x28d93a069f6a722d!8m2!3d52.2842215!4d76.9434585?hl=ru-KZ"
-                                class="footer-links" target="_blank">25, Pl. Pobedy St., office 201, Pavlodar,
-                                Kazakhstan</a>
-                        </p>
-                    </div>
+        <!-- Text -->
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row pt-5 row-cols-1 row-cols-lg-12">
+                <div class="col">
+                    <h1>Privacy and Cookie Policy</h1>
+                    <p>Published on November 5, 2021.</p>
+                    <h2>1. Privacy Policy</h2>
+                    <p>iText LLP, registered under the laws of the Republic of Kazakhstan, observes and protects the
+                        privacy
+                        of users of the site with the domain itext.agency, making every possible and proportional effort
+                        not
+                        to violate their rights.</p>
+                    <p>This privacy policy aims to explain to users the procedures iText LLP uses to protect their data,
+                        namely, what personal data is collected, why it is collected, how it is used, how it is covered,
+                        and
+                        what rights the user has.</p>
+                    <p>This privacy policy does not cover our responsibility to protect third parties data, information,
+                        or
+                        other activities, including those who operate the sites or services to which itext.agency links.
+                    </p>
+                    <p>This privacy policy applies to all personal data that iText LLP acquires or processes when users
+                        interact with itext.agency website. This includes buying and using our services, responding to
+                        marketing messages, and contacting iText LLP customer support. These interactions may relate to
+                        visitors, customers, suppliers, and/or partners.</p>
+                    <p>In addition, iText LLP processes personal data obtained from sources other than the itext.agency
+                        website, for which a different privacy policy is required.</p>
+                    <h2>2. General information about data processing</h2>
+                    <p>Throughout this Privacy Policy, the term &quot;personal information&quot; means information that
+                        identifies users. It allows us to identify users directly or in combination with other
+                        information
+                        at our disposal.</p>
+                    <h3><strong>Site users in general</strong></h3>
+                    <p>iText LLP processes user data based on consent. By using or visiting the iText LLP website, users
+                        explicitly accept this privacy policy and consent to processing their personal data for the
+                        purposes
+                        and methods described below, including disclosure to third parties if necessary to provide the
+                        service. Providing data and consent to its collection and processing is not mandatory. The user
+                        may
+                        refuse permission and withdraw consent at any time. However, denying permission may make it
+                        impossible to provide some services and adversely affect the site&#39;s navigation.</p>
+                    <h3><strong>Clients</strong></h3>
+                    <p>iText LLP undertakes to do everything possible to ensure maximum confidentiality in providing
+                        services, as far as the electronic form of the service is concerned. All texts, the nature of
+                        the
+                        work performed, personal data of the client transmitted for translation purposes, and any
+                        information transmitted by the client to iText LLP are strictly confidential, and the personal
+                        data
+                        obtained is processed under Article 6 of the GDPR.</p>
+                    <p>In particular, iText LLP uses the provided information only for contract execution (and for
+                        possible
+                        pre-contractual operations) and may not - without the prior written consent of the customer -
+                        publicly disclose or transfer such information to third parties, except to authorized employees
+                        or
+                        suppliers, if their operational or consulting intervention requires access to such information.
+                        The
+                        above guarantees do not apply if iText LLP undertakes to disclose such information as required
+                        by
+                        law or if such information is or will be in the public domain regardless of its disclosure by
+                        iText
+                        LLP. The same applies when the vital interests of the data subject or another natural person
+                        require
+                        the processing of personal data or when processing is necessary to protect the legitimate
+                        interests
+                        of iText LLP or third parties whose importance is greater than the rights of the data subject.
+                    </p>
+                    <h3><strong>Suppliers and employees</strong></h3>
+                    <p>The personal information of our suppliers and freelancers (suppliers, interpreters, translators,
+                        graphic designers, partner organizations, consultants, etc.) is treated with the utmost
+                        confidentiality. The only information that is shared with third parties is the information
+                        posted on
+                        our site: your username, your native language, experience, and education. Other information,
+                        including full name, date of birth, addresses, and telephone numbers, is used only by iText LLP
+                        and
+                        its authorized vendors (e.g., accounting firms, banks, etc.) for purposes related to current
+                        operations.</p>
+                    <h2>3. Automatically collected information. Webview data</h2>
+                    <p>Like all Web sites, this site also uses log files that automatically collect and store
+                        information
+                        about user visits. The information collected may include the following:</p>
+                    <ul role="list">
+                        <li>your IP address</li>
+                        <li>the type of browser and parameters of the device used to connect to the site</li>
+                        <li>the name of the Internet Service Provider (ISP)</li>
+                        <li>the date and time of the visit/request</li>
+                        <li>the number of clicks, where possible</li>
+                        <li>method used to send the request to the server</li>
+                        <li>the size of the file received in response</li>
+                        <li>a numeric code indicating the status of the response from the server</li>
+                        <li>Other parameters related to the operating system and the user&#39;s IT environment</li>
+                    </ul>
+                    <p>The information above is processed automatically and is only collected in aggregate form to
+                        ensure
+                        the proper functioning of the site and for security reasons. For security purposes (spam
+                        filters,
+                        firewalls, virus detection), automatically logged data may also include personal information,
+                        such
+                        as the IP address (which uniquely identifies a computer at a given time), which can be used -
+                        under
+                        current legislation governing this matter - to block attempts to harm the site or other users,
+                        to
+                        commit malicious and criminal acts. This type of data is used to protect the site and its users.
+                    </p>
+                    <p>The data listed is used for the sole purpose of obtaining anonymous statistical information about
+                        the
+                        use of the site and to verify its proper functioning. Consequently, the data is deleted
+                        immediately
+                        after processing. Data used for security purposes (blocking attempts to harm the site) is stored
+                        for
+                        seven days.</p>
+                    <h2>4. Use of cookies</h2>
+                    <h3><strong>What are cookies.</strong></h3>
+                    <p>A cookie is a small text file sent to your browser from a website you visit and then stored on
+                        your
+                        computer&#39;s hard drive. If you reconnect to this site, the cookies are re-read and recognized
+                        by
+                        the site that sent them. When you visit a website, you may receive cookies from third-party
+                        sites
+                        (called &quot;third-party cookies&quot;), such as links to web pages on other domains.</p>
+                    <p>Cookies can be used for various purposes, such as recognizing a user&#39;s device by the website,
+                        tracking sessions, and remembering specific information about users who access the server.</p>
+                    <h3><strong>Types of cookies</strong></h3>
+                    <p>Technical cookies are necessary for the proper functioning of the site and for you to benefit
+                        from
+                        its services.</p>
+                    <p>Functionality cookies make it easier for you to navigate the site, remember your selections, and
+                        tailor the functionality to your requirements.</p>
+                    <p>The site uses analytics cookies to collect information about the site&#39;s use, visited pages,
+                        and
+                        any errors that may occur while browsing. These cookies do not collect personally identifiable
+                        information about your computer. All information collected by such cookies is combined into a
+                        single
+                        array and, therefore, anonymous.</p>
+                    <p>However, the user can disable analytics cookies anytime by using the instructions below.</p>
+                    <h3><strong>Disabling cookies</strong></h3>
+                    <p>You can allow or disallow cookies anytime and erase any installed cookies by adjusting your
+                        browser
+                        settings. The company cannot guarantee the site&#39;s proper operation if cookies are disabled.
+                    </p>
+                    <p>The procedure for adjusting settings differs depending on the browser. </p>
+                    <h2>5. Third-party files of a cookie</h2>
+                    <p>This site also acts as an intermediary for third-party cookies, which are used to provide
+                        additional
+                        services and features to users. They also enhance the site&#39;s user interface with buttons for
+                        social media or video. This site has no access to or control over third-party cookies - they are
+                        managed entirely by third parties. As a consequence, information about the use of these cookies
+                        and
+                        their purposes, as well as how to disable them, is provided directly by third parties on the
+                        pages
+                        listed below.</p>
+                    <h3><strong>Social Networks</strong></h3>
+                    <p>This site also includes plugins and/or social media buttons to provide easy access to content on
+                        your
+                        favorite social networks. These plugins are programmed not to set cookies to protect your
+                        privacy.
+                        The cookies can only be installed if provided by social media when you explicitly use the plugin
+                        of
+                        your own volition. Please note: If you browse the website by logging into a social network, you
+                        had
+                        already consented to the use of cookies sent through this site when you registered for the
+                        social
+                        network.</p>
+                    <p>The collection and use of data obtained through plug-ins is governed by the relevant social media
+                        privacy policies.</p>
+                    <h2>6. Mailing lists and emails</h2>
+                    <p>They may contain a confirmation of orders or subscriptions to the newsletter. In correspondence
+                        with
+                        you, we may also provide you with information about iText LLP services. In addition, in the case
+                        of
+                        newsletters, we record (for example, with the help of the so-called &quot;tracking pixel&quot;)
+                        that
+                        the email has been read and the links contained therein have been clicked. This allows us to
+                        optimize our offerings and tailor them to your needs. Thanks to this data, we can send you the
+                        news
+                        that will interest you personally.</p>
+                    <p>You can decline these types of processing at www.itext.agency. For example, you can change your
+                        online profile or unsubscribe from our newsletter, and you can contact the data controller at
+                        the
+                        address below.</p>
+                    <h2>7. Place of data processing</h2>
+                    <p>The data collected by this site is processed at the data controller&#39;s main office and the web
+                        data center. GitHub Pages, responsible for data processing and handling data on behalf of the
+                        data
+                        controller, is located in the European Economic Area and operates under European standards.</p>
+                    <h2>8. Data transmission in non-EU countries</h2>
+                    <p>This site may transfer some collected data to servers outside the European Union. Specifically
+                        through Google, Facebook, and Microsoft (LinkedIn) through social plugins and Google Analytics.
+                        The
+                        transfer is permitted based on specific European Union and Guarantor regulations on protecting
+                        personal data, particularly Regulation 1250/2016 (Data Privacy Protector), for which no
+                        additional
+                        consent is required. The companies mentioned above guarantee compliance with the provisions of
+                        the
+                        Data Privacy Shield.</p>
+                    <h2>9. Precautions</h2>
+                    <p>This site processes your data according to the law and with appropriate security measures to
+                        prevent
+                        unauthorized access, disclosure, modification, or destruction. We process your data using a
+                        computer
+                        and/or electronic tools, applying the appropriate organizational, technical, and administrative
+                        measures to protect personal data using criteria strictly related to the stated purposes.
+                        Unfortunately, no data transfer tool and no storage system can guarantee 100% data integrity.
+                        Please
+                        get in touch with us if you feel that your data transmitted to us while using the site is not
+                        sufficiently protected.</p>
+                    <p>In addition to the data controller, in some cases, access to stored personal data may be granted
+                        to
+                        other parties involved in the site (administration, sales, legal, and system administrators) or
+                        to
+                        other companies (such as third-party tech support providers, courier companies, hosting
+                        providers,
+                        IT companies and communications agencies), which, if necessary, may be assigned by the data
+                        controller to process personal data.</p>
+                    <p>Your personal information should be kept for as long as necessary or permitted in light of the
+                        purposes for which it is collected. The criteria adopted for determining retention periods are
+                        as
+                        follows: (i) the period of regular use of itext.agency; (ii) the need for us to fulfill a
+                        contract
+                        or legal obligation; (iii) the ability to retain data in light of our legal position (for
+                        example,
+                        concerning deadlines, disputes, or regulatory compliance checks).</p>
+                    <h2>10. User rights</h2>
+                    <p>Under the GDPR and Kazakh law, in the manner and to the extent permitted by applicable law, you
+                        have
+                        the following rights concerning your personal data:</p>
+                    <ul role="list">
+                        <li>request confirmation of your personal data (access rights)</li>
+                        <li>know the source from which they were obtained</li>
+                        <li>get a clear explanation</li>
+                        <li>obtain information about the criteria, methods, and purposes of processing</li>
+                        <li>request an update, correction, integration, cancellation, conversion into anonymous form,
+                            blocking of data processed in violation of the law, including when it is no longer needed to
+                            achieve the purposes for which it was obtained</li>
+                        <li>in the case of consent-based processing, obtain any reference to the data that has been
+                            provided
+                            to the data controller in a structured and readable form, completed by the data processor,
+                            and
+                            in a format normally available on electronic devices</li>
+                        <li>the right to file a complaint with the supervisory authorities</li>
+                        <li>as well as, in general, to exercise all rights that are recognized by applicable law</li>
+                    </ul>
+                    <p>Requests must be addressed to the data controller. In particular, you can exercise your rights
+                        regarding processing personal data by contacting www.itext.agency, for example, by changing your
+                        online profile, unsubscribing to our newsletter, or contacting the data controller at the
+                        address
+                        listed above. We will respond to the request under applicable law. Remember to indicate in your
+                        request which personal information you would like to have changed or removed from our database
+                        and
+                        how you would like to limit the use of your personal information. Remember that we may need to
+                        retain certain information to register and/or complete a transaction you initiated before
+                        requesting
+                        a change or restriction.</p>
+                    <h2>11. Special information for parents</h2>
+                    <p>The itext.agency website is not intended for use by children, as required by law, and we do not
+                        knowingly collect personal information about minors. However, iText LLP is committed to
+                        complying
+                        with legal provisions that require parent or guardian permission to collect, use or disclose the
+                        personal information of minors. We guarantee the protection of minors&#39; personal information
+                        and
+                        encourage parents and guardians to regulate children&#39;s Internet use and protect their
+                        interests.
+                    </p>
+                    <p>If you, as a parent or guardian, become aware that a child has provided us with personal
+                        information
+                        without your consent, please get in touch with the data controller at the address below. In
+                        turn, if
+                        we find out that the child has given us his or her personal information, we will remove it from
+                        our
+                        files.</p>
+                    <h2>12. Data controller</h2>
+                    <p>The data controller - under the GDPR and other data protection laws of the RoK and other data
+                        protection provisions - is iText LLP and can be contacted at the following email address: <a
+                            href="mailto:itext@itext.kz">itext@itext.kz</a>.</p>
+                    <p>The data processor is GitHub Pages Web Hosting.</p>
+                    <h2>13. Specialist in the protection of personal data</h2>
+                    <p>The data protection specialist of iText LLP is Mr. Roman Jarmukhametov. He can be reached at the
+                        following address <a href="mailto:roman@itext.agency">roman@itext.agency</a>.</p>
+                    <h2>14. Updates</h2>
+                    <p>This privacy policy was updated on November 5, 2021.</p>
                 </div>
             </div>
         </section>
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-            <p>&#169;2022 All rights reserved: iText Translation Agency</p>
-        </div>
-    </footer>
 
+        <!-- Footer -->
+        <footer-section></footer-section>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+    <!-- Import App -->
+    <script src="../js/app.js"></script>
+
+    <!-- Import Components -->
+    <script src="../components/Footer.js"></script>
+
+    <!-- Mount App -->
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
 </body>
 
 </html>

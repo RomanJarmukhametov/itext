@@ -21,6 +21,8 @@
     <link rel="alternate" hreflang="kk-kz" href="https://itext.agency/kk/qyzmet-korsetu-sharttary.html" />
     <link rel="alternate" hreflang="en-us" href="https://itext.agency/en/terms-of-sale.html" />
 
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-857826585"></script>
     <script>
@@ -54,182 +56,152 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary-custom">
-        <div class="container">
-            <a class="navbar-brand" href="./home.html"> <img src="../assets/itext_logo.svg" alt="logo"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./for-companies.html">Companies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="./for-individuals.html">Individuals</a>
-                    </li>
-                </ul>
+
+    <div id="app">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-primary-custom">
+            <div class="container">
+                <a class="navbar-brand" href="./home.html"> <img src="../assets/itext_logo.svg" alt="logo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./for-companies.html">Companies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-color" href="./for-individuals.html">Individuals</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Text -->
-
-    <section class="container py-lg-5 py-md-3 py-sm-1">
-        <div class="row pt-5 row-cols-1 row-cols-lg-12">
-            <div class="col">
-                <h1>Terms of Service</h1>
-                <h2><strong>Our warranty</strong></h2>
-                <p>If you are not satisfied with the quality of the translation, we will provide you with a new version
-                    as soon as possible and at our expense. If the second version also proves unacceptable, you will be
-                    entitled to a full or partial refund. The conditions and procedures for challenging work performed
-                    are listed below.</p>
-                <p>In case of untimely delivery of work, if the time of delay expressed in working days exceeds the
-                    general term of translation performance by more than one-third (i.e., with 33% delay), and if such
-                    delay is exclusively the fault of iText LLP, we undertake to compensate up to 100% of the
-                    translation cost.</p>
-                <h2>General terms of sale</h2>
-                <p>These general terms and conditions of sale apply to all work assignments performed by iText LLP. </p>
-                <p>All translation requests must be accompanied by an order indicating the price set by the parties.
-                    Orders may be sent by regular mail, e-mail or fax; we reserve the right to refuse work without
-                    receiving the order.</p>
-                <p>If technical documentation is involved, the client should provide reference materials and/or drawings
-                    or diagrams to ensure a better understanding of such documents.</p>
-                <p>The cost of the translation is calculated based on the number of words in the original language
-                    unless another form of evaluation has been agreed upon in advance in writing.</p>
-                <p>If a customer cancels an order, we bill 100% of the cost for all work performed and 50% for suspended
-                    work.</p>
-                <p>Unless otherwise agreed, all invoices are due and payable within five days of the invoice date.</p>
-                <p>Any delay in payment or non-payment of an invoice is cause for immediate collection from the customer
-                    without prior notice or other formalities. iText LLP reserves the right to demand payment of
-                    interest calculated at the official discount rate of the National Bank of the Republic of Kazakhstan
-                    in effect at the time of overdue payment. In addition, the customer must reimburse all costs
-                    incurred by iText LLP. </p>
-                <p>If payment is delayed, all work in progress and ongoing orders are suspended.</p>
-                <p>iText LLP will not be responsible for translations that, for whatever reason, are not satisfactory in
-                    terms of style. In particular, concerning advertising and sales promotion materials, iText LLP&#39;s
-                    services are limited to simple translation unless otherwise expressly requested in the application.
-                    iText LLP is not responsible for the transposition of the translated text, for example, in
-                    advertising style, which differs from the style of the source text. Our liability is limited only to
-                    the amount of the bill.</p>
-                <p>Claims will only be accepted if received by registered mail with the paid delivery notice within
-                    seven days of delivery of the work(s) or part of the work(s). Original documents, disputed
-                    translations, and a letter of explanation must accompany all claims. After the above period, the
-                    translation will be regarded as correct.</p>
-                <p>If the claim of the dissatisfied customer is submitted within the established deadlines, iText LLP
-                    agrees to provide the edited version of the disputed translation at its own expense within the term
-                    equal to one-third of the term previously established for this work, plus one business day. This
-                    second document will be used to assess the quality of translation in establishing the amount of
-                    compensation payable at the discretion of iText LLP. </p>
-                <p>iText LLP is not responsible for any delays caused by malfunctioning faxes, modems, e-mail and/or
-                    other postal services or carriers not directly controlled by iText LLP. </p>
-                <p>In case of late delivery of work, if the time of delay exceeds the deadline by more than one-third,
-                    and if such delay is directly and solely due to the fault of iText LLP, we will reimburse the cost,
-                    which will be set by agreement between the parties, it can amount up to 100% of the cost of work
-                    delivered with a delay.</p>
-                <p>Flaws in one part of the work are not grounds for a claim. iText LLP reserves the right to change the
-                    translation in such cases.</p>
-                <p>Only written agreements between the parties will be taken into account. Any disputes and
-                    disagreements are within the jurisdiction of the Pavlodar Court. In the event of non-payment,
-                    submitting a partial or complete reproduction of the translation in question will be deemed illegal.
-                    iText LLP reserves the right to demand immediate payment for translation and compensation for
-                    copyright infringement in appropriate cases from the customer who uses unpaid materials.</p>
-                <h2>Responsibility</h2>
-                <p>iText LLP and/or its suppliers disclaim any warranties or conditions relating to the services
-                    offered, including any implied warranties and conditions regarding merchantability, fitness for a
-                    particular purpose, proprietary rights, and non-infringement of the rights of others. iText LLP and
-                    its suppliers shall not be liable, for any reason whatsoever, for any direct, indirect, or
-                    consequential losses or damages resulting from loss of use rights, loss of information, or damages
-                    resulting from the performance or non-performance of a contract, negligence or other malicious acts
-                    in any way related to iText LLP services. </p>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-muted border-top">
-        <section>
-            <div class="container text-center text-md-start mt-5 mb-4">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <a class="navbar-brand" href="./home.html"> <img src="../assets/itext_logo.svg" alt="logo">
-                        </a>
-                        <div class="top-buffer">
-                            <a href="../kk/basty.html" class="footer-links">Қазақша</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="../index.html" class="footer-links">Русский</a>
-                        </div>
-                        <div class="top-buffer">
-                            <a href="./home.html" class="footer-links selected-language">English</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4"> Menu </h6>
-                        <p>
-                            <a href="./home.html" class="footer-links">Home</a>
-                        </p>
-                        <p>
-                            <a href="./about-us.html" class="footer-links">About Us</a>
-                        </p>
-                        <p>
-                            <a href="./for-companies.html" class="footer-links">Companies</a>
-                        </p>
-                        <p>
-                            <a href="./for-individuals.html" class="footer-links">Individuals</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4"> Further information </h6>
-                        <p>
-                            <a href="./terms-of-sale.html" class="footer-links">Terms of Service</a>
-                        </p>
-                        <p>
-                            <a href="./confidentiality.html" class="footer-links">Confidentiality</a>
-                        </p>
-
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Contacts</h6>
-                        <p><a href="mailto:itext@itext.kz?subject=Order a translation from the siteа&body=Hello! We need to translate the attached documents"
-                                class="footer-links">itext@itext.kz</a></p>
-                        <p>
-                            <a href="tel:+77182764060" class="footer-links">+7 7182 76 40 60</a>
-                        </p>
-                        <p>
-                            <a href="http://wa.me/77018712531" class="footer-links">WhatsApp Us</a>
-                        </p>
-                        <p>
-                            <a href="https://www.google.com/maps/place/%D0%91%D1%8E%D1%80%D0%BE+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2+iText/@52.2841928,76.9440005,18.41z/data=!4m5!3m4!1s0x42f835292c059a2f:0x28d93a069f6a722d!8m2!3d52.2842215!4d76.9434585?hl=ru-KZ"
-                                class="footer-links" target="_blank">25, Pl. Pobedy St., office 201, Pavlodar,
-                                Kazakhstan</a>
-                        </p>
-                    </div>
+        <!-- Text -->
+        <section class="container py-lg-5 py-md-3 py-sm-1">
+            <div class="row pt-5 row-cols-1 row-cols-lg-12">
+                <div class="col">
+                    <h1>Terms of Service</h1>
+                    <h2><strong>Our warranty</strong></h2>
+                    <p>If you are not satisfied with the quality of the translation, we will provide you with a new
+                        version
+                        as soon as possible and at our expense. If the second version also proves unacceptable, you will
+                        be
+                        entitled to a full or partial refund. The conditions and procedures for challenging work
+                        performed
+                        are listed below.</p>
+                    <p>In case of untimely delivery of work, if the time of delay expressed in working days exceeds the
+                        general term of translation performance by more than one-third (i.e., with 33% delay), and if
+                        such
+                        delay is exclusively the fault of iText LLP, we undertake to compensate up to 100% of the
+                        translation cost.</p>
+                    <h2>General terms of sale</h2>
+                    <p>These general terms and conditions of sale apply to all work assignments performed by iText LLP.
+                    </p>
+                    <p>All translation requests must be accompanied by an order indicating the price set by the parties.
+                        Orders may be sent by regular mail, e-mail or fax; we reserve the right to refuse work without
+                        receiving the order.</p>
+                    <p>If technical documentation is involved, the client should provide reference materials and/or
+                        drawings
+                        or diagrams to ensure a better understanding of such documents.</p>
+                    <p>The cost of the translation is calculated based on the number of words in the original language
+                        unless another form of evaluation has been agreed upon in advance in writing.</p>
+                    <p>If a customer cancels an order, we bill 100% of the cost for all work performed and 50% for
+                        suspended
+                        work.</p>
+                    <p>Unless otherwise agreed, all invoices are due and payable within five days of the invoice date.
+                    </p>
+                    <p>Any delay in payment or non-payment of an invoice is cause for immediate collection from the
+                        customer
+                        without prior notice or other formalities. iText LLP reserves the right to demand payment of
+                        interest calculated at the official discount rate of the National Bank of the Republic of
+                        Kazakhstan
+                        in effect at the time of overdue payment. In addition, the customer must reimburse all costs
+                        incurred by iText LLP. </p>
+                    <p>If payment is delayed, all work in progress and ongoing orders are suspended.</p>
+                    <p>iText LLP will not be responsible for translations that, for whatever reason, are not
+                        satisfactory in
+                        terms of style. In particular, concerning advertising and sales promotion materials, iText
+                        LLP&#39;s
+                        services are limited to simple translation unless otherwise expressly requested in the
+                        application.
+                        iText LLP is not responsible for the transposition of the translated text, for example, in
+                        advertising style, which differs from the style of the source text. Our liability is limited
+                        only to
+                        the amount of the bill.</p>
+                    <p>Claims will only be accepted if received by registered mail with the paid delivery notice within
+                        seven days of delivery of the work(s) or part of the work(s). Original documents, disputed
+                        translations, and a letter of explanation must accompany all claims. After the above period, the
+                        translation will be regarded as correct.</p>
+                    <p>If the claim of the dissatisfied customer is submitted within the established deadlines, iText
+                        LLP
+                        agrees to provide the edited version of the disputed translation at its own expense within the
+                        term
+                        equal to one-third of the term previously established for this work, plus one business day. This
+                        second document will be used to assess the quality of translation in establishing the amount of
+                        compensation payable at the discretion of iText LLP. </p>
+                    <p>iText LLP is not responsible for any delays caused by malfunctioning faxes, modems, e-mail and/or
+                        other postal services or carriers not directly controlled by iText LLP. </p>
+                    <p>In case of late delivery of work, if the time of delay exceeds the deadline by more than
+                        one-third,
+                        and if such delay is directly and solely due to the fault of iText LLP, we will reimburse the
+                        cost,
+                        which will be set by agreement between the parties, it can amount up to 100% of the cost of work
+                        delivered with a delay.</p>
+                    <p>Flaws in one part of the work are not grounds for a claim. iText LLP reserves the right to change
+                        the
+                        translation in such cases.</p>
+                    <p>Only written agreements between the parties will be taken into account. Any disputes and
+                        disagreements are within the jurisdiction of the Pavlodar Court. In the event of non-payment,
+                        submitting a partial or complete reproduction of the translation in question will be deemed
+                        illegal.
+                        iText LLP reserves the right to demand immediate payment for translation and compensation for
+                        copyright infringement in appropriate cases from the customer who uses unpaid materials.</p>
+                    <h2>Responsibility</h2>
+                    <p>iText LLP and/or its suppliers disclaim any warranties or conditions relating to the services
+                        offered, including any implied warranties and conditions regarding merchantability, fitness for
+                        a
+                        particular purpose, proprietary rights, and non-infringement of the rights of others. iText LLP
+                        and
+                        its suppliers shall not be liable, for any reason whatsoever, for any direct, indirect, or
+                        consequential losses or damages resulting from loss of use rights, loss of information, or
+                        damages
+                        resulting from the performance or non-performance of a contract, negligence or other malicious
+                        acts
+                        in any way related to iText LLP services. </p>
                 </div>
             </div>
         </section>
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-            <p>&#169;2022 All rights reserved: iText Translation Agency</p>
-        </div>
-    </footer>
 
+        <!-- Footer -->
+        <footer-section></footer-section>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+    <!-- Import App -->
+    <script src="../js/app.js"></script>
+
+    <!-- Import Components -->
+    <script src="../components/Footer.js"></script>
+
+    <!-- Mount App -->
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
 </body>
 
 </html>
