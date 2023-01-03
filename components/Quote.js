@@ -38,7 +38,7 @@ app.component("quote", {
         titleSpan: "қазір біліңіз",
         text: "Аудармаға тапсырыс нысанын толтырыңыз. Біз Сізге ең жақсы жағдайларды ұсынамыз.",
         button: "Аудармаға тапсырыс беру",
-        buttonLink: "https://.agency/kk/audarmaga-tapsyrys-beru.html",
+        buttonLink: "https://itext.agency/kk/audarmaga-tapsyrys-beru.html",
       },
     };
   },
