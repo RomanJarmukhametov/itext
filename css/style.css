@@ -323,3 +323,17 @@ p {
 .icon-blue {
     color: var(--primary60);
 }
+
+/* 13. Order form */
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.65;
+}
