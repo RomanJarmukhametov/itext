@@ -363,7 +363,7 @@ app.component("quote-form", {
   methods: {
     //Validate name
     validateName() {
-      const regex = /^[a-zA-Zа-яА-Я]+$/;
+      const regex = /^[a-zA-Zа-яА-Я\s]+$/;
       if (!regex.test(this.name)) {
         if (getLanguage() === "ru") {
           this.errors.name = "Имя должно содержать только буквы";
