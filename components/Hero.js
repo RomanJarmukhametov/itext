@@ -97,7 +97,7 @@ app.component("hero", {
         leadText:
           "We will translate and notarize all your documents from over 50 languages in the shortest possible time.",
         primaryButtonUrl: "../en/quote.html",
-        primaryButtonText: "Quote",
+        primaryButtonText: "Get a Quote",
         secondaryButtonUrl: "../en/about-us.html",
         secondaryButtonText: "About Us",
       },
@@ -137,7 +137,7 @@ app.component("hero", {
         leadText:
           "A comprehensive offering to meet your company's translation needs: from simple document translation to specialized localization solutions, as well as services for automated and express translation in more than 50 languages.",
         primaryButtonUrl: "../en/quote.html",
-        primaryButtonText: "Quote",
+        primaryButtonText: "Get a Quote",
         secondaryButtonUrl: "../en/about-us.html",
         secondaryButtonText: "About Us",
       },

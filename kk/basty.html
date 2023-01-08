@@ -22,7 +22,7 @@
     <link rel="alternate" hreflang="kk-kz" href="https://itext.agency/kk/basty.html" />
     <link rel="alternate" hreflang="en-us" href="https://itext.agency/en/home.html" />
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-857826585"></script>
@@ -77,38 +77,7 @@
 
     <div id="app">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-primary-custom">
-            <div class="container">
-                <a class="navbar-brand" href="../kk/basty.html"> <img src="../assets/itext_logo.svg" alt="logo"> </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active-link" aria-current="page" href="../kk/basty.html">Басты бет</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-color" href="../kk/biz-turaly.html">Өзіміз туралы</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-color" href="../kk/kompaniyalar-ushin.html">Компанияларға</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-color" href="../kk/zheke-tulgalar-ushin.html">Жеке
-                                тұлғаларға</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex">
-                        <a href="../kk/audarmaga-tapsyrys-beru.html" class="btn btn-primary btn-sm me-2">Аудармаға
-                            тапсырыс
-                            беру</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <navbar-section></navbar-section>
 
         <!-- Hero -->
         <hero></hero>
@@ -138,72 +107,7 @@
         <quote></quote>
 
         <!-- Footer -->
-        <footer class="text-center text-lg-start text-muted border-top">
-            <section>
-                <div class="container text-center text-md-start mt-5 mb-4">
-                    <div class="row mt-3">
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <a class="navbar-brand" href="../index.html"> <img src="../assets/itext_logo.svg"
-                                    alt="logo">
-                            </a>
-                            <div class="top-buffer">
-                                <a href="../kk/basty.html" class="footer-links selected-language">Қазақша</a>
-                            </div>
-                            <div class="top-buffer">
-                                <a href="../index.html" class="footer-links">Русский</a>
-                            </div>
-                            <div class="top-buffer">
-                                <a href="../en/home.html" class="footer-links">English</a>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <h6 class="text-uppercase fw-bold mb-4"> Мәзір </h6>
-                            <p>
-                                <a href="../kk/basty.html" class="footer-links">Басты бет</a>
-                            </p>
-                            <p>
-                                <a href="../kk/biz-turaly.html" class="footer-links">Өзіміз туралы</a>
-                            </p>
-                            <p>
-                                <a href="../kk/kompaniyalar-ushin.html" class="footer-links">Компанияларға</a>
-                            </p>
-                            <p>
-                                <a href="../kk/zheke-tulgalar-ushin.html" class="footer-links">Жеке тұлғаларға</a>
-                            </p>
-                        </div>
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <h6 class="text-uppercase fw-bold mb-4"> Қосымша ақпарат </h6>
-                            <p>
-                                <a href="../kk/qyzmet-korsetu-sharttary.html" class="footer-links">Қызметтерді көрсету шарттары</a>
-                            </p>
-                            <p>
-                                <a href="../kk/kupiyalylyk.html" class="footer-links">Құпиялылық</a>
-                            </p>
-
-                        </div>
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <h6 class="text-uppercase fw-bold mb-4">Байланыс ақпарат</h6>
-                            <p><a href="mailto:itext@itext.kz?subject=Заказ перевода с сайта&body=Добрый день! Необходим перевод вложенных документов"
-                                    class="footer-links">itext@itext.kz</a></p>
-                            <p>
-                                <a href="tel:+77182764060" class="footer-links">+7 7182 76 40 60</a>
-                            </p>
-                            <p>
-                                <a href="http://wa.me/77018712531" class="footer-links">WhatsApp-қа жазу</a>
-                            </p>
-                            <p>
-                                <a href="https://www.google.com/maps/place/%D0%91%D1%8E%D1%80%D0%BE+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2+iText/@52.2841928,76.9440005,18.41z/data=!4m5!3m4!1s0x42f835292c059a2f:0x28d93a069f6a722d!8m2!3d52.2842215!4d76.9434585?hl=ru-KZ"
-                                    class="footer-links" target="_blank">Жеңіс алаңы 25, офис 201, Павлодар, Қазақстан</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-                <p>&#169;2022 Барлық құқықтар қорғалған: iText аударма бюросы</p>
-            </div>
-        </footer>
+        <footer-section></footer-section>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
@@ -214,6 +118,7 @@
     <script src="../js/app.js"></script>
 
     <!-- Import Components -->
+    <script src="../components/Navbar.js"></script>
     <script src="../components/Hero.js"></script>
     <script src="../components/ClientLogos.js"></script>
     <script src="../components/Achievements.js"></script>
@@ -223,6 +128,7 @@
     <script src="../components/OurWorkingEnvironment.js"></script>
     <script src="../components/AnyQuestions.js"></script>
     <script src="../components/Quote.js"></script>
+    <script src="../components/Footer.js"></script>
 
     <!-- Mount App -->
     <script>

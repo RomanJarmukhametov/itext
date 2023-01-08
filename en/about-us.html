@@ -22,7 +22,7 @@
     <link rel="alternate" hreflang="kk-kz" href="https://itext.agency/kk/biz-turaly.html" />
     <link rel="alternate" hreflang="en-us" href="https://itext.agency/en/about-us.html" />
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-857826585"></script>
@@ -59,35 +59,7 @@
 <body>
     <div id="app">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-primary-custom">
-            <div class="container">
-                <a class="navbar-brand" href="./home.html"> <img src="../assets/itext_logo.svg" alt="logo"> </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-color" href="./home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active-link" aria-current="page" href="./about-us.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-color" href="./for-companies.html">Companies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-color" href="./for-individuals.html">Individuals</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex">
-                        <a href="./quote.html" class="btn btn-primary btn-sm me-2">Quote</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <navbar-section></navbar-section>
 
         <!-- Hero -->
         <section class="container py-lg-5 py-md-3 py-sm-1">
@@ -167,6 +139,7 @@
     <script src="../js/app.js"></script>
 
     <!-- Import Components -->
+    <script src="../components/Navbar.js"></script>
     <script src="../components/ClientLogos.js"></script>
     <script src="../components/Testimonials.js"></script>
     <script src="../components/AdvantagesSection.js"></script>

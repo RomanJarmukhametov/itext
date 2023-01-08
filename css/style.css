@@ -141,6 +141,10 @@ p {
     border-radius: 6px;
 }
 
+.hidden-btn {
+    display: none;
+}
+
 .btn-primary:hover {
     background-color: var(--primary70);
 }

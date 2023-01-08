@@ -24,7 +24,7 @@
 
     <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 
 
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
@@ -62,35 +62,10 @@
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary-custom">
-        <div class="container">
-            <a class="navbar-brand" href="../kk/basty.html"> <img src="../assets/itext_logo.svg" alt="logo"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="../kk/basty.html">Басты бет</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="../kk/biz-turaly.html">Өзіміз туралы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="../kk/kompaniyalar-ushin.html">Компанияларға</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-color" href="../kk/zheke-tulgalar-ushin.html">Жеке тұлғаларға</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <div id="app">
+        <!-- Navbar -->
+        <navbar-section></navbar-section>
+
         <!-- Form -->
         <quote-form></quote-form>
 
@@ -121,6 +96,7 @@
     <script src="../js/app.js"></script>
 
     <!-- Import Components -->
+    <script src="../components/Navbar.js"></script>
     <script src="../components/Forms.js"></script>
     <script src="../components/AdvantagesSection.js"></script>
     <script src="../components/ClientLogos.js"></script>

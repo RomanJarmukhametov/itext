@@ -29,7 +29,7 @@
     <link rel="alternate" hreflang="kk-kz" href="https://itext.agency/kk/basty.html" />
     <link rel="alternate" hreflang="en-us" href="https://itext.agency/en/home.html" />
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 
 
     <!-- Global site tag (gtag.js) - Google Ads: 857826585 -->
@@ -84,7 +84,8 @@
 <body>
     <div id="app">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-primary-custom">
+        <navbar-section></navbar-section>
+        <!-- <nav class="navbar navbar-expand-lg bg-primary-custom">
             <div class="container">
                 <a class="navbar-brand" href="./index.html"> <img src="./assets/itext_logo.svg" alt="logo"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -112,7 +113,7 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
         <!-- Hero -->
         <hero></hero>
@@ -153,6 +154,7 @@
     <script src="./js/app.js"></script>
 
     <!-- Import Components -->
+    <script src="./components/Navbar.js"></script>
     <script src="./components/Hero.js"></script>
     <script src="./components/FeaturesSection.js"></script>
     <script src="./components/Achievements.js"></script>
